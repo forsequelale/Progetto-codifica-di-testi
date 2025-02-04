@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!-- <teiHeader> fornisce medatadi descrittivi e dichiarativi relativi a una risorsa o un insieme di risorse digitali -->
+<teiHeader>
+<fileDesc>
+  <titleStmt>
+    <title level="m">La Rassegna Settimanale: Vol 1, Fascicolo 4</title>
+    <title level="s">Trascrizione digitale degli articoli "I partiti politici in Russia" e "Corrispondenza da Gonzaga";
+    delle entrate bibliografiche "Scienze politiche" e "Scienze militari"; e delle ultime due entrate della sezione Notizie.</title>
+    <author>Franchetti Leopoldo</author>
+    <author>Sonnino Sidney</author>
+    <editor>Tipografia Barbéra</editor>
+    <respStmt>
+      <resp>Conversione sotto le norme TEI P5 a cura di:</resp>
+      <name>Alessandro Esposito</name>
+    </respStmt>
+  </titleStmt>
+
+  <editionStmt>
+  <edition>Edizione del 1878</edition>                        
+  <respStmt>
+    <resp>Progetto coordinato da:</resp>
+    <name>Angelo Mario Del Grosso</name>
+  </respStmt>
+</editionStmt>
+
+
+  <publicationStmt>
+    <publisher>Università di Pisa</publisher>
+    <pubPlace>Pisa</pubPlace>
+    <date>2024</date>
+    <availability status="free">
+      <p>L'edizione digitale è disponibile su</p>
+      <p><ref target="https://github.com/miadir">GitHub</ref></p>
+    </availability>
+  </publicationStmt>
+
+  <seriesStmt>
+    <title>Edizione elettronica della rivista "La Rassegna Settimanale"</title>
+    <respStmt>
+      <resp>coordinata da</resp>
+      <name>Angelo Mario Del Grosso</name>
+    </respStmt>
+  </seriesStmt>
+
+  <notesStmt>
+    <note>collegamento al sito della rassegnasettimanale</note>
+  </notesStmt>
+
+  <sourceDesc>
+    <biblStruct>
+      <analytic>
+        <title>I partiti politici in Russia</title>
+      </analytic>
+      <analytic>
+        <title>Corrispondenza da Gonzaga</title>
+      </analytic>
+      <analytic>
+        <title>Bibliografia (Scienze Politiche, Scienze militari)</title>
+      </analytic>
+      <analytic>
+        <title>Notizie (ultime due)</title>
+      </analytic>
+
+      <monogr>
+        <editor>Casa editrice Barbéra</editor>
+        <title>La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti</title>
+        <textLang mainLang="it">Italiano</textLang>
+        <respStmt>
+          <resp>Fondata da</resp>
+          <name>Leopoldo Franchetti</name>
+          <name>Sydney Sonnino</name>
+        </respStmt>
+        <imprint>
+          <pubPlace>Firenze</pubPlace>
+          <publisher>Tipografia Barbéra</publisher>
+          <date>1878</date>
+        </imprint>
+        <biblScope unit="volume">1</biblScope>
+        <biblScope unit="issue">4</biblScope>
+        <biblScope unit="page">51,52,53,54,63,64</biblScope>
+      </monogr>
+    </biblStruct>
+  </sourceDesc>
+</fileDesc>
+
+
+ <encodingDesc>
+  <projectDesc>
+    <p>I testi seguono le linee guida TEI P5, il progetto è stato realizzato per il corso di Codifica Di Testi dell'Università di Pisa</p>
+  </projectDesc>
+
+  <samplingDecl>
+    <p>Sono stati selezionati per la codifica due articoli, due entrate della sezione Bibliografia e due entrate della sezione Notizie, nello stesso fascicolo.</p>
+  </samplingDecl>
+
+  <editorialDecl> 
+    <correction status="high" method="markup"> 
+      <p>Per la correzione di errori sono stati usati i tag <gi>sic</gi> e <gi>corr</gi></p>
+    </correction>
+    <normalization method="markup" source="https://www.treccani.it">
+      <p>Per le normalizzazioni sono stati usati i tag <gi>orig</gi> e <gi>reg</gi> e come fonte il vocabolario online della Treccani</p>
+    </normalization>
+    <!-- Aggiunta delle interpretazioni come paragrafi -->
+    <p>Il termine "Governo" è stato considerato come nome proprio.</p>
+    <p>L'uso del corsivo (italics) è stato considerato significativo.</p>
+  </editorialDecl>
+</encodingDesc>
+
+ <profileDesc>
+  <creation>
+   <date>1878</date>
+  </creation>
+  <langUsage>
+   <language ident="it" usage="100">Italiano</language>
+  </langUsage>
+  <textClass>
+   <keywords scheme="#">
+    <term>Rivista </term>
+    <term>Politica, letteratura, scienza della seconda metà dell'Ottocento</term>
+   </keywords>
+  </textClass>
+ </profileDesc>
+ <revisionDesc>
+  <change></change>
+ </revisionDesc>
+</teiHeader>
+
+<facsimile>
+<surface xml:id="p51" start="#pb51">
+<graphic url='Vol1-1878-1-S1-F4-03.png' width='1470.4px' height='2180.4px' />
+<zone ulx="716" uly="1727" lrx="1417" lry="1830" xml:id="p51_titolo" corresp="#p51_titolo"/>
+<zone ulx="716" uly="1829" lrx="1416" lry="1861" xml:id="p51_data" corresp="#p51_data"/>
+<zone ulx="718" uly="1858" lrx="1419" lry="2086" xml:id="p51_p1" start="#p51_par1"/>
+</surface>
+
+
+<surface xml:id="p52" start="#pb52">
+<graphic url='Vol1-1878-1-S1-F4-04.png' width='1477.4px' height='2213.4px' />
+<zone ulx="97" uly="178" lrx="777" lry="461" xml:id="p52_p1" start="#p52_par1"/>
+<zone ulx="103" uly="460" lrx="781" lry="1296" xml:id="p52_p2" start="#p52_par2" />
+<zone ulx="102" uly="1294" lrx="783" lry="2098" xml:id="p52_p3" start="#p52_par3" />
+
+
+<zone ulx="774" uly="180" lrx="1470" lry="290" xml:id="p52_p4" start="#p52_par4" />
+<zone ulx="774" uly="291" lrx="1476" lry="808" xml:id="p52_p5" start="#p52_par5" />
+<zone ulx="780" uly="805" lrx="1475" lry="1696" xml:id="p52_p6" start="#p52_par6" />
+<zone ulx="785" uly="1700" lrx="1474" lry="2099" xml:id="p52_p7" start="#p52_par7" />
+</surface>
+
+<surface xml:id="p53" start="#pb53">
+<graphic url='Vol1-1878-1-S1-F4-05.png' width='1496.4px' height='2256.4px' />
+<zone ulx="62" uly="147" lrx="731" lry="1267" xml:id="p53_p1" start="#p53_par1" />
+<zone ulx="51" uly="1268" lrx="728" lry="1811" xml:id="p53_p2" start="#p53_par2"/>
+<zone ulx="51" uly="1808" lrx="728" lry="2063" xml:id="p53_p3" start="#p53_par3"/>
+
+
+<zone ulx="734" uly="155" lrx="1421" lry="717" xml:id="p53_p4" start="#p53_par4" />
+</surface>
+
+ <!--ARTICOLO 2-->
+<surface xml:id="p53-2" start="#pb53-2" >
+<graphic url='Vol1-1878-1-S1-F4-05.png' width='1496.4px' height='2256.4px' />
+<zone ulx="735" uly="730" lrx="1491" lry="771" xml:id="p53_titolo" corresp="#p53_titolo" />
+<zone ulx="735" uly="773" lrx="1493" lry="1579" xml:id="p53_p1_a2" start="#p53_par1_a2" />
+<zone ulx="730" uly="1580" lrx="1418" lry="2061" xml:id="p53_p2_a2" start="#p53_par2_a2"/>
+</surface>
+
+<surface xml:id="p54" start="#pb54">
+<graphic url='Vol1-1878-1-S1-F4-06.png' width='1486.4px' height='2215.4px' />
+<zone ulx="111" uly="178" lrx="791" lry="787" xml:id="p54_p1" start="#p54_par1" />
+<zone ulx="107" uly="790" lrx="786" lry="1447" xml:id="p54_p2" start="#p54_par2" />
+<zone ulx="106" uly="1444" lrx="786" lry="2020" xml:id="p54_p3" start="#p54_par3"/>
+<zone ulx="101" uly="2018" lrx="786" lry="2103"  xml:id="p54_p4" start="#p54_par4"/>
+
+
+
+<zone ulx="794" uly="180" lrx="1478" lry="336" xml:id="p54_p5" start="#p54_par5" />
+</surface>
+
+<!--BIBLIOGRAFIA-->
+<surface xml:id="p63" start="#pb63">
+<graphic url='Vol1-1878-1-S1-F4-15.png' width='1464.4px' height='2199.4px' />
+<zone ulx="3" uly="1050" lrx="707" lry="1092" xml:id="p63_titolo" corresp="#p63_titolo" />
+<zone ulx="2" uly="1095" lrx="707" lry="1187" xml:id="p63_bibl" corresp="#p63_bibl" />
+<zone ulx="2" uly="1194" lrx="703" lry="1506"  xml:id="p63_p1" start="#p63_par1"/>
+<zone ulx="3" uly="1508" lrx="706" lry="1998"  xml:id="p63_p2" start="#p63_par2"/>
+</surface>
+
+
+<surface xml:id="p64" start="#pb64">
+<graphic url='Vol1-1878-1-S1-F4-16.png' width='1492.4px' height='2221.4px' />
+<zone ulx="4" uly="692" lrx="775" lry="729" xml:id="p64_titolo" corresp="#p64_titolo" />
+<zone ulx="6" uly="731" lrx="776" lry="792" xml:id="p64_bibl" corresp="#p64_bibl" />
+<zone ulx="5" uly="791" lrx="776" lry="1936" xml:id="p64_p1" start="#p64_par1" />
+<zone ulx="4" uly="1940" lrx="776" lry="2056" xml:id="p64_p2" start="#p64_par2"/>
+
+<zone ulx="777" uly="132" lrx="1465" lry="742" xml:id="p64_p3" start="#p64_par3" />
+</surface>
+
+<!--NOTIZIE-->
+<surface xml:id="p64-2" start="#pb64-2">
+<graphic url='Vol1-1878-1-S1-F4-16.png' width='1492.4px' height='2221.4px' />
+<zone ulx="782" uly="744" lrx="1457" lry="785" xml:id="p64_titolo_n" corresp="#p64_titolo_n" />
+<zone ulx="777" uly="1762" lrx="1489" lry="1846" xml:id="p64_p4" start="#p64_par4"/>
+<zone ulx="778" uly="1837" lrx="1489" lry="1918" xml:id="p64_p5" start="#p64_par5"/>
+</surface>
+</facsimile>
+
+    <text xml:id= "testo" xml:lang="it" type = "news" >
+       <body>
+          <div>
+          <pb n="51" facs="#p51" xml:id="pb51" />
+          
+           <cb n="2" xml:id="c2_51" corresp="#pb51"/>
+
+            <head rend="align(center)" facs="#p51_titolo" xml:id="titolo_51" corresp="#c2_51">
+             <title level="m">I PARTITI POLITICI IN RUSSIA</title> 
+             <title level="s">DI FRONTE ALL'
+               ATTUALE GUERRA.
+              <lb break="no"/> (Lettera da Pietroburgo.) </title>
+            </head>
+
+            <ab facs="#p51_data" xml:id="data_51" corresp="#c2_51">
+              <date rend="italic" from="--01-08" to="--01-20" >8/20 gennaio.</date>
+            </ab>
+
+            <ab facs="#p51_p1" xml:id="p51_par1" corresp="#c2_51">
+                  <lb break="no"/> Nel nostro paese non vi sono <term type="verbum" rend="italic">partiti politici</term> nel senso 
+                  <lb break="yes"/>attribuito a queste parole nell’ occidente, ove a questo con<pc force="inter">-</pc>
+                  <lb break="no"/>cetto va unito quello di una adeguata discussione e di una 
+                  <lb break="no"/>corrispondente attività; ambedue sono impossibili in <country ref="#RU">Russia</country>, 
+                  <lb break="no"/>ove tuttociò che non si conforma alla vita tradizionale del 
+                  <lb break="no"/>popolo, <choice><orig>od</orig><reg>o</reg></choice> alla linea segnata dal governo, viene a naufragare 
+                  <lb break="no"/>su questi due scogli : l'assoluta inerzia del popolo in basso, e 
+                  <lb break="no"/>la volontà non meno assoluta del <orgName type="government" ref="#GOVR">Governo</orgName> in alto. Per cui
+                
+            </ab>
+
+
+        <pb n="52" facs="#p52" xml:id="pb52"/>
+        
+            <cb n="1" xml:id="c1_52" corresp="#pb52"/>
+            
+            <ab facs="#p52_p1" xml:id="p52_par1" corresp="#c1_52">
+            
+              <lb break="no"/>quella frazione piccolissima della nazione russa che pensa 
+              <lb break="no"/>e che ha idee diverse da quelle del popolo e del <orgName type="government" ref="#GOVR">Governo</orgName> 
+              <lb break="no"/>è ridotta ad un impotente desiderio di agire, e non può 
+              <lb break="yes"/>manifestare le sue opinioni che in quanto lo tollera la cen<pc force="inter">-</pc>
+              <lb break="no"/>sura, nei vari periodici mensili e giornalieri, diretti da 
+              <lb break="no"/>uomini più o meno influenti rappresentanti le singole forme 
+              <lb break="no"/>dell’ opinione pubblica, la quale non potendo svilupparsi 
+              <lb break="yes"/>liberamente, è tuttora allo stato nascente e caotico. Pur<pc force="inter">-</pc>
+              <lb break="yes"/>nonostante, di fronte all'attuale guerra si espressero net<pc force="inter">-</pc>
+              <lb break="no"/>tamente alcune tendenze diverse, che sto per accennare.
+              
+              </ab>
+
+              <ab facs="#p52_p2" xml:id="p52_par2" corresp="#c1_52">
+              
+              <lb break="no"/>Circa due anni fa, quando fu traveduta la possibilità 
+              <lb break="no"/>della guerra <choice> <orig>colla</orig> <reg>con la</reg></choice> <country ref="#TU">Turchia</country>, alcuni dei nostri pubblicisti 
+              <lb break="yes"/>vi si dichiararono favorevoli ; essi cercavano di dimo<pc force="inter">-</pc>
+              <lb break="no"/>strare che fra le sue conseguenze benefiche sarebbe stata 
+              <lb break="no"/>anche quella di favorire lo sviluppo politico interno ; anzi 
+              <lb break="no"/>a misura che cresceva la probabilità della guerra, gli 
+              <lb break="yes"/>stessi scrittori sostenevano che le loro previsioni si av<pc force="inter">-</pc>
+              <lb break="no"/>veravano più presto di quello che essi medesimi, avessero 
+              <lb break="no"/>creduto, e che la sola idea del grande avvenimento avesse 
+              <lb break="no"/>già portato la società russa ad un alto grado di maturità 
+              <lb break="no"/>politica. In conferma di quest'asserto, essi adducevano la 
+              <lb break="no"/><soCalled>« comunità di sentimenti e d'idee, »</soCalled> che a parer loro, aveva 
+              <lb break="yes"/>abbracciato e collegato insieme tutte le classi della po<pc force="inter">-</pc>
+              <lb break="no"/>polazione. Ma, pure ammettendo che in alcuni rari casi, 
+              <lb break="yes"/>un tale consenso unanime possa realmente essere il sin<pc force="inter">-</pc>
+              <lb break="no"/>tomo di un grande progresso politico, come lo è per esempio 
+              <lb break="no"/>l'universale dolore provato in <country ref="#IT">Italia</country> per la grave perdita 
+              <lb break="yes"/>nazionale che la colpì all' improvviso, bisogna dire che l'esi<pc force="inter">-</pc>
+              <lb break="no"/>stenza di una simile unanimità fra noi di fronte alla guerra 
+              <lb break="no"/>è per lo meno dubbia. Una grandissima parte della società 
+              <lb break="no"/>russa colta, avendo profondamente apprezzato il valore 
+              <lb break="no"/>delle riforme civilizzatrici avveratesi negli ultimi venti anni, 
+              <lb break="no"/>non desidera altro fuorché nuove riforme nel medesimo 
+              <lb break="yes"/>senso. Riforme agrarie e finanziarie, lo sviluppo dell'indu<pc force="inter">-</pc>
+              <lb break="yes"/>stria, la diffusione della istruzione popolare, il migliora<pc force="inter">-</pc>
+              <lb break="no"/>mento dei sistemi governativi, ecco i soli veri interessi 
+              <lb break="no"/>della parte intelligente della nazione ; essa è così penetrata 
+              <lb break="no"/>della loro necessità che può realmente essere considerata 
+              <lb break="no"/>come <term type="verbum" rend="italic">il partito delle riforme interne.</term>
+              
+              </ab>
+
+              <ab facs="#p52_p3" xml:id="p52_par3" corresp="#c1_52">
+              
+              <lb break="no"/>Mentre il <orgName type="government" ref="#GOVR">Governo</orgName> si preparava alla guerra inevitabile, o, 
+              <lb break="no"/>come credono taluni, la voleva e la preparava segretamente 
+              <lb break="no"/>seguendo le sue tradizionali mire politiche, la società aveva 
+              <lb break="yes"/>rivolto tutti i pensieri alla vita interna ; essa ignorava i pre<pc force="inter">-</pc>
+              <lb break="no"/>parativi, al punto che allorquando si manifestarono le prime 
+              <lb break="no"/>complicazioni sorte in Oriente, essa non se ne commosse 
+              <lb break="yes"/><choice><orig>menomamente</orig><reg>minimamente</reg></choice>, e la sua attenzione fu attirata su quegli av<pc force="inter">-</pc>
+              <lb break="yes"/>venimenti soltanto dalla potente voce di <name type="person" ref="#GD">Gladstone</name>, che chia<pc force="inter">-</pc>
+              <lb break="no"/>mava la civiltà in difesa dei cristiani oppressi dagli <choice> <orig>Osmanli</orig> <reg>Turchi</reg></choice>. 
+              <lb break="no"/>Essa allora fu naturalmente prona a simpatizzare <choice> <orig>colle</orig> <reg>con le</reg></choice> soffe<pc force="inter">-</pc>
+              <lb break="no"/>renze altrui, non godendo in casa propria una vita troppo 
+              <lb break="no"/>felice. I discorsi e gli scritti dell' <hi rend="italic"><name type="person" ref="#GD">ex-Premier</name></hi> inglese e dei 
+              <lb break="no"/>suoi amici scossero la società russa assai più profondamente 
+              <lb break="no"/>che non erano riusciti a farlo i nostri agitatori stessi, nel 
+              <lb break="no"/>corso di parecchi anni. Ma quando si vide alla vigilia della 
+              <lb break="yes"/>guerra, essa, consapevole di tutti i difetti della propria or<pc force="inter">-</pc>
+              <lb break="no"/>ganizzazione governativa, e dubbiosa intorno allo scopo 
+              <lb break="no"/>della guerra stessa, si <choice> <orig>pronunziò</orig> <reg>pronunciò </reg> </choice> tutt'altro che in favore 
+              <lb break="no"/>della medesima. Se la letteratura riflette realmente le idee 
+              <lb break="no"/>e i <choice><sic>desiderii</sic><corr>desideri</corr></choice> di una società, essa in questo caso attesta che 
+              <lb break="no"/>la parte intelligente del popolo russo <emph rend="italic">non voleva la guerra,</emph>
+              <lb break="no"/>e persisteva a non volerla quando nelle alte sfere si era 
+              <lb break="yes"/>già deciso di dichiararla. Difatti, dai tre principali pe<pc force="inter">-</pc>
+              <lb break="no"/>riodici russi (<name type="bibl">Riviste mensili</name>), che da molti anni erano gli 
+              <lb break="no"/>organi dell'opinione pubblica, l'impresa della guerra veniva 
+              <lb break="no"/>condannata fino all'ultimo momento, fino al primo scontro, 
+              <lb break="no"/>cioè fintanto che l'opposizione poteva esser utile e non 
+              <lb break="no"/>diventava pericolosa. I giornali quotidiani i più popolari
+              
+            </ab>
+            
+            
+            <cb n="2" xml:id="c2_52" corresp="#pb52"/>
+            <ab facs="#p52_p4" xml:id="p52_par4" corresp="#c2_52">
+            
+              <lb break="no"/>parlavano anch'essi in questo senso, combattendo cioè il 
+              <lb break="no"/>progetto di guerra. Gli uni e gli altri sapevano di avere 
+              <lb break="no"/>la tacita simpatia della società colta, la quale non aveva 
+              <lb break="no"/>nessun altro mezzo di manifestare le proprie tendenze.
+            
+              </ab>
+
+              <ab facs="#p52_p5" xml:id="p52_par5" corresp="#c2_52">
+              
+              <lb break="yes"/>Intanto le ostilità, già principiate, procedevano con suc<pc force="inter">-</pc>
+              <lb break="no"/>cesso incerto e con immensi <choice><orig>sacrifizi</orig><reg> sacrifici</reg></choice> del popolo russo. 
+              <lb break="no"/>Condannata al silenzio anche nei tempi normali, la società 
+              <lb break="yes"/>colta potè ora meno che mai <choice> <orig>pronunziarsi</orig> <reg>pronunciarsi</reg> </choice> apertamente, e co<pc force="inter">-</pc>
+              <lb break="no"/>loro che volevano farla apparire come soddisfattissima della 
+              <lb break="no"/>guerra avevano un compito ben facile, <ellipsis><metamark>—</metamark></ellipsis> erano i soli a 
+              <lb break="no"/>parlare. Col tempo venne la speranza di una prossima pace, 
+              <lb break="yes"/>e la <addName type="epithet">parte colta</addName> della società russa, sempre intenta all'ur<pc force="inter">-</pc>
+              <lb break="no"/>genza delle riforme interne, l'aspetta con una impazienza 
+              <lb break="no"/>uguale a quella dell'<name type="place" ref="#EO">Europa occidentale</name>. Tal'è, rispetto 
+              <lb break="no"/>alla guerra, la posizione del <soCalled>« partito delle riforme interne,»</soCalled>
+              <lb break="no"/>rappresentato in realtà dalla immensa maggioranza della  
+              <lb break="no"/>parte intelligente della nazione, che non ha mai desiderato 
+              <lb break="no"/>altro che la pace, che rimpiangeva i rovesci solo perchè 
+              <lb break="no"/>temeva che essi conducessero a nuovi <choice><orig>sagrifizi</orig><reg>sacrifici</reg></choice> per salvare 
+              <lb break="no"/>l'onore delle armi, e che si rallegrava delle vittorie solo 
+              <lb break="yes"/>perchè sperava che esse conducessero ad una pronta con<pc force="inter">-</pc>
+              <lb break="no"/>clusione della pace.
+              
+              </ab>
+
+              <ab facs="#p52_p6" xml:id="p52_par6" corresp="#c2_52">
+              
+              <lb break="no"/>Idee e tendenze diverse non furono per lungo tempo 
+              <lb break="no"/>rappresentate in <country ref="#RU">Russia</country> che da piccoli gruppi isolati, i quali 
+              <lb break="no"/>hanno però acquistato ora un grande significato. Mossi da 
+              <lb break="no"/>considerazioni teoriche diverse, non abbastanza sottoposte 
+              <lb break="no"/>alla critica, oppure dal desiderio di fare dell'opposizione 
+              <lb break="no"/>pratica agli elementi stranieri della <orgName type="government" ref="#GOVR">Corte</orgName> e delle più alte 
+              <lb break="yes"/>sfere amministrative, alcuni rappresentanti della ricca no<pc force="inter">-</pc>
+              <lb break="no"/>biltà di <name type="city" ref="#MO">Mosca</name> si ostinano a non voler scorgere nulla di 
+              <lb break="no"/>buono nelle tendenze ed aspirazioni che vi ho accennate, 
+              <lb break="no"/>verso una migliore civiltà, e contrappongono ad esse le 
+              <lb break="no"/>proprie, antico-russe, nazionali ed ortodosse, sostenendo 
+              <lb break="no"/>che il popolo russo deve vivere di una vita sua propria, 
+              <lb break="no"/>incontaminata da influenze estere occidentali ; che esso deve 
+              <lb break="no"/>fondersi <choice> <orig>colle</orig> <reg>con le</reg></choice> altre popolazioni slave e formare un mondo 
+              <lb break="no"/>a parte, affatto distinto dal mondo Germanico e da quello 
+              <lb break="no"/>Latino, destinato a percorrere una via storica diversa dalla 
+              <lb break="no"/>loro, ed a riempire una missione storica diversa ; <choice><orig>donde</orig><reg>dove</reg></choice> il 
+              <lb break="yes"/><emph rend="italic">dovere</emph> che secondo questo modo di vedere incombe al po<pc force="inter">-</pc>
+              <lb break="no"/>polo russo, il più potente fra le stirpi slave, di liberare dai 
+              <lb break="no"/>loro attuali oppressori i fratelli meno potenti. Tali sono 
+              <lb break="no"/>le idee d'un gruppo d'uomini rispettabilissimi i quali però 
+              <lb break="yes"/>non ebbero mai in <country ref="#RU">Russia</country> una grande popolarità, anzi fu<pc force="inter">-</pc>
+              <lb break="yes"/>rono generalmente addirittura derisi dai migliori rappresen<pc force="inter">-</pc>
+              <lb break="yes"/>tanti della nostra letteratura, e dalla società colta in gene<pc force="inter">-</pc>
+              <lb break="no"/>rale, ogniqualvolta hanno fatto parlare di sè. I loro sforzi 
+              <lb break="no"/>per costituire un <term type="verbum" rend="italic">partito nazionale, slavofilo o panslavistico,</term>
+              <lb break="no"/>che abbia una qualche influenza sulle faccende pubbliche,  
+              <lb break="yes"/>rimasero per lungo tempo sterili ; ma essi speravano sem<pc force="inter">-</pc>
+              <lb break="no"/>pre che la loro ardente fede sarebbe ricompensata, e che  
+              <lb break="no"/>un giorno anch'essi avrebbero un certo peso nella bilancia 
+              <lb break="no"/>degli avvenimenti politici.
+              
+              </ab>
+
+              <ab facs="#p52_p7" xml:id="p52_par7" corresp="#c2_52">
+                
+                <lb break="yes"/>Ora difatti questo giorno è giunto. Benché lo stesso <orgName type="government" ref="#GOVR">Go<pc force="inter">-</pc>
+                <lb break="yes"/>verno</orgName> li tenesse in poco conto, esso apprezzava però l'im<pc force="inter">-</pc>
+                <lb break="yes"/>portanza dei loro prolungati e continui rapporti <choice> <orig>colle</orig> <reg>con le</reg></choice> per<pc force="inter">-</pc>
+                <lb break="no"/>sonalità più influenti e spiccate dei vari rami limitrofi 
+                <lb break="no"/>della razza slava, come i Bulgari, i Bosniaci, i Czechi, i 
+                <lb break="no"/>Montenegrini, ed altri; il <orgName type="government" ref="#GOVR">Governo</orgName> sapeva bene che tali 
+                <lb break="yes"/>rapporti potevano all’ occasione rendergli servigi grandis<pc force="inter">-</pc>
+                <lb break="yes"/>simi, e non solo li tollerava, ma li incoraggiava. D'al<pc force="inter">-</pc>
+                <lb break="no"/>tra parte, quando sorsero in Oriente le complicanze nelle 
+                <lb break="yes"/>quali esso credè opportuno e si decise di intervenire effi<pc force="inter">-</pc>
+                <lb break="no"/>cacemente, gli <rs type="group" ref="#slavofili">slavofili</rs> compresero che dinanzi a loro si 
+                <lb break="no"/>apriva un vasto campo di attività : essi afferrarono le parole 
+                <lb break="yes"/>di <name type="person" ref="#GD">Gladstone</name>, il quale, dall'interno di quel paese che gli sla<pc force="inter">-</pc>
+                <lb break="yes"/>vofili avversano più di ogni altro, aveva parlato come po<pc force="inter">-</pc>
+                
+            </ab>
+
+            <pb n="53" facs="#p53" xml:id="pb53"/>
+            <cb n="1" xml:id="c1_53" corresp="#pb53"/>
+            <ab facs="#p53_p1" xml:id="p53_par1" corresp="#c1_53">
+            
+              <lb break="no"/>teva parlare uno di loro, e, approfittando del terreno da 
+              <lb break="no"/>esso preparato, dell'incipiente simpatia per la dura sorte 
+              <lb break="no"/>dei cristiani oppressi, essi cominciarono a soffiare nella 
+              <lb break="no"/>brace, e riuscirono ad appiccare l'incendio. La <country ref="#RU">Russia</country>, essi 
+              <lb break="yes"/>ripetevano, ha l'obbligo, il dovere morale di liberare i fra<pc force="inter">-</pc>
+              <lb break="no"/>telli dal giogo turco, anche a costo di una guerra seria, <ellipsis> <metamark>—</metamark></ellipsis>   
+              <lb break="yes"/>guerra <choice> <orig>colla</orig> <reg>con la</reg></choice><country ref="#TU">Turchia</country> sola, se essa rimane sola; guerra an<pc force="inter">-</pc>
+              <lb break="yes"/>che <choice><orig>coll'</orig> <reg>con l'</reg></choice><country ref="#AU">Austria</country>, se questa interviene ; guerra anche col<pc force="inter">-</pc>
+              <lb break="no"/>l'<country ref="#EN">Inghilterra</country>, se osa intervenire. Sempre vissuti in mezzo 
+              <lb break="yes"/>al loro idealismo nazionale-religioso, questi uomini manca<pc force="inter">-</pc>
+              <lb break="no"/>vano assolutamente delle conoscenze reali indispensabili per 
+              <lb break="yes"/>apprezzare gli ostacoli a qualsiasi guerra, che solo lo stu<pc force="inter">-</pc>
+              <lb break="yes"/>dio obbiettivo delle condizioni del paese in generale e del<pc force="inter">-</pc>
+              <lb break="yes"/>l'esercito in particolare poteva svelare in tutta la loro gra<pc force="inter">-</pc>
+              <lb break="no"/>vità. Al principio, la <addName type="epithet">parte colta</addName> della nazione, essendo da 
+              <lb break="no"/>lunga pezza abituata a simili sfoghi per parte degli <rs type="group" ref="#slavofili">slavofili</rs>, 
+              <lb break="no"/>non vi prestò molta attenzione e li ricevè <choice> <orig>colla</orig> <reg>con la</reg></choice> solita in<pc force="inter">-</pc>
+              <lb break="no"/>differenza; ma questa volta gli <rs type="group" ref="#slavofili">slavofili</rs> non avevano bisogno 
+              <lb break="no"/>dell'appoggio di questa minoranza; essi sapevano che la 
+              <lb break="no"/>plebe, completamente ignara dei bisogni del proprio paese, 
+              <lb break="no"/>delle condizioni richieste per far la guerra, e dei trattati che 
+              <lb break="no"/>legano il suo <orgName type="government" ref="#GOVR">Governo</orgName>, non sarebbe rimasta indifferente al 
+              <lb break="no"/>loro appello in pro' dei <term type="verbum" rend="italic">fratelli correligionari,</term> ed avrebbe anzi 
+              <lb break="no"/>caldamente abbracciato l'idea della riscossa ; essi sapevano 
+              <lb break="no"/>pure che il <orgName type="government" ref="#GOVR">Governo</orgName> avrebbe lavorato nel medesimo senso ; 
+              <lb break="no"/>ond'è che dopo aver inveito un'altra volta contro la parte 
+              <lb break="no"/>colta della popolazione, come minoranza <soCalled>« demoralizzata 
+              <lb break="yes"/>dal funesto contagio delle società occidentali, »</soCalled> essi si mi<pc force="inter">-</pc>
+              <lb break="no"/>sero all' opera nel modo più efficace possibile. Forti della 
+              <lb break="no"/>simpatia del <orgName type="government" ref="#GOVR">Governo</orgName>, coadiuvati dagli alti dignitari della 
+              <lb break="no"/><orgName ref="#chiesa">Chiesa</orgName>, essi entrarono in stretti rapporti col basso clero, 
+              <lb break="no"/>e per mezzo suo, con tutta la massa della popolazione 
+              <lb break="yes"/>russa; dappertutto i preti dei villaggi ricevettero i gior<pc force="inter">-</pc>
+              <lb break="no"/>nali <rs type="group" ref="#slavofili">slavofili</rs>, pieni di strazianti descrizioni delle sevizie dei 
+              <lb break="no"/>Turchi, e di appelli al popolo per la difesa dei <term type="verbum" rend="italic">fratelli in
+              <lb break="yes"/><rs type="religion" ref="#Cristianesimo">Cristo</rs> e in sangue;</term> i preti rinforzavano la dose di fanati<pc force="inter">-</pc>
+              <lb break="yes"/>smo religioso, e riuscirono, in capo a pochi mesi, a solle<pc force="inter">-</pc>
+              <lb break="no"/>vare in minacciosa <distinct type="poetic">procella</distinct> il vasto oceano, così indolente 
+              <lb break="no"/>per natura sua, del popolino russo.
+              
+              </ab>
+
+                <ab facs="#p53_p2" xml:id="p53_par2" corresp="#c1_53">
+                  
+                    <lb break="no"/>Allora gli <rs type="group" ref="#slavofili">slavofili</rs>, portati dal flusso al quale essi stessi 
+                    <lb break="yes"/>avevano dato la prima spinta, poterono sostenere con ra<pc force="inter">-</pc>
+                    <lb break="no"/>gione che il <term rend="italic" type="verbum">popolo</term> russo voleva la <eventName ref="#guerraturu">guerra</eventName>. Il <orgName type="government" ref="#GOVR">Governo</orgName> dal 
+                    <lb break="no"/>canto suo, non domandava di meglio che approfittare di 
+                    <lb break="no"/>questo valido appoggio e, ottenutolo, prese coraggio. La 
+                    <lb break="no"/>guerra fu dichiarata; raddoppiarono le sofferenze che 
+                    <lb break="yes"/>sempre accompagnano la vita del popolo russo: la ca<pc force="inter">-</pc>
+                    <lb break="no"/>restia in province intere; l'arresto del lavoro nelle poche 
+                    <lb break="no"/>regioni industriali; un'elevatezza di prezzi quale non si 
+                    <lb break="no"/>era verificata che nei tempi peggiori della nostra storia; 
+                    <lb break="no"/>e, per di più, un inverno di un rigore insolito, con tutte le 
+                    <lb break="no"/>sue terribili conseguenze. Dal largo petto del <addName type="epithet" ref="#mugik">Mugik</addName> uscì un 
+                    <lb break="no"/>gemito<ellipsis><metamark>—</metamark></ellipsis> ma era troppo tardi; non si udiva più altro che 
+                    <lb break="no"/>il rombo del cannone; e gli <rs type="group" ref="#slavofili">slavofili</rs> poterono liberamente 
+                    <lb break="no"/>continuare a spargere la voce che <said who="#slavofili">il popolo era proprio 
+                    <lb break="no"/>contento</said>. Ecco come gli <rs type="group" ref="#slavofili">slavofili</rs> sono riusciti ad avere un 
+                    <lb break="no"/>peso che non ebbero mai. Essi però rimangono di nuovo 
+                    <lb break="no"/>isolati, perchè i più fanatici di essi sono oramai i soli in 
+                    <lb break="no"/><country ref="#RU">Russia</country> che desiderano la guerra ad oltranza.
+                  
+                </ab>
+
+
+              <ab facs="#p53_p3" xml:id="p53_par3" corresp="#c1_53">
+                
+                  <lb break="no"/>Oltre alle due grandi tendenze delle quali ho parlato, 
+                  <lb break="no"/>vi sono in <country ref="#RU">Russia</country> opinioni individuali, ma non partiti; vi 
+                  <lb break="no"/>sono, è vero, dei <rs type="ideology" ref="#nihilism">Nihilisti</rs>, dei quali all'estero si parla molto 
+                  <lb break="no"/>e si crede che formino un partito; ma in realtà questo nome 
+                  <lb break="no"/>non indica da noi che un pugno di giovani di ambo i sessi, 
+                  <lb break="no"/>appartenenti specialmente alla scolaresca universitaria, i 
+                  <lb break="yes"/>quali, seguendo un impulso <choice> <sic>instintivo</sic> <corr>istintivo</corr></choice>, generoso ma fuor<pc force="inter">-</pc>
+                  <lb break="yes"/>viato, verso un benessere ideale, che vorrebbero immedia<pc force="inter">-</pc>
+                  <lb break="no"/>tamente tradurre in atto, formano piccole associazioni.
+                
+              </ab>
+
+
+              <cb n="2" xml:id="c2_53" corresp="#pb53"/>
+
+            
+              <ab facs="#p53_p4" xml:id="p53_par4" corresp="#c2_53">
+                
+                  <lb break="yes"/>cospirazioni con lo scopo di togliere senza indugio tutti i di<pc force="inter">-</pc>
+                  <lb break="no"/>etti della vita russa, e di darle un <distinct type="archaic"><choice> <orig>organamento </orig><reg>organizzazione</reg></choice></distinct> affatto 
+                  <lb break="no"/>diverso. Estranei alle condizioni di un'attività politica reale, 
+                  <lb break="no"/>illusi dall'idea di aver trovato la soluzione definitiva di 
+                  <lb break="yes"/>tutti i problemi scientifici e sociali, essi operano in conse<pc force="inter">-</pc>
+                  <lb break="no"/>guenza. Ne risulta che, non compresi dal popolo, trascurati 
+                  <lb break="no"/>dalla <addName type="epithet">parte colta</addName> della società, e perseguitati dal <orgName type="government" ref="#GOVR">Governo</orgName>, 
+                  <lb break="no"/>essi non hanno né organo, né influenza di sorta. Pur 
+                  <lb break="no"/>nonostante costituiscono un fenomeno morale e sociale così 
+                  <lb break="no"/>curioso, che intendo parlarvene in un'altra mia ; dirò ora 
+                  <lb break="no"/>soltanto che di fronte alla guerra, essi, siccome 
+                  <lb break="yes"/>nemici giurati dell'ordine politico attuale, non possono che condan<pc force="inter">-</pc>
+                  <lb break="no"/>narla, e se a volte esprimono l'opinione che forse ne potrà 
+                  <lb break="no"/>nascere un qualche bene, intendono alludere alla possibilità 
+                  <lb break="no"/>che il popolo, stanco di soffrire, finisca <choice> <orig>coll'</orig> <reg>con l'</reg></choice>insorgere contro 
+                  <lb break="no"/>il <orgName type="government" ref="#GOVR">Governo</orgName> iniziatore di tanta sciagura,<ellipsis><metamark>—</metamark></ellipsis> ma questa è una 
+                  <lb break="yes"/>mera fantasia, senza fondamento di sorta. Anch'essi dun<pc force="inter">-</pc>
+                  <lb break="yes"/>que, come invero la grande massa del popolo russo, desi<pc force="inter">-</pc>
+                  <lb break="no"/>derano la pace.
+                
+              </ab>
+
+            </div>
+
+            <div>
+
+
+            <pb n="53" facs="#p53-2" xml:id="pb53-2"/>
+            <cb n="2" xml:id="c2_53_2" corresp="#pb53-2"/>
+            <head rend="align(center)" facs="#p53_titolo" xml:id="_p53_titolo" corresp="#c2_53_2">
+            <title>CORRISPONDENZA DA GONZAGA (Mantovano).</title></head>
+            <ab facs="#p53_p1_a2" xml:id="p53_par1_a2" corresp="#c2_53_2">
+              
+                <lb break="no"/>La miseria tormenta quest'anno più che mai, la nostra  
+                <lb break="no"/>gente di campagna. Il raccolto del grano turco è stato, 
+                <lb break="no"/>nell'anno ora finito, meschinissimo. Siccome gran parte del 
+                <lb break="no"/>salario, guadagnato dai braccianti nella buona stagione, è 
+                <lb break="no"/>pagato loro facendoli partecipi di una determinata porzione 
+                <lb break="no"/>del grano turco raccolto da quelle particelle di terre, che dalle 
+                <lb break="no"/>famiglie dei lavoratori vengono predisposte e coltivate a 
+                <lb break="yes"/>quello scopo; così avviene, che quando il raccolto è mi<pc force="inter">-</pc>
+                <lb break="no"/>sero, il compenso <term type="verbum" rend="italic">in natura</term> non corrisponde in nessun 
+                <lb break="no"/>modo alle fatiche sopportate, ed ai bisogni del più meschino 
+                <lb break="no"/>nutrimento, durante la stagione invernale. Nell'inverno poi 
+                <lb break="yes"/>è assai difficile che la stagione corra propizia a lavori cam<pc force="inter">-</pc>
+                <lb break="yes"/>pestri, che si riducono tutti a movimenti di terre, livella<pc force="inter">-</pc>
+                <lb break="no"/>menti, e preparazione dei terreni. Quando quelle terre sono 
+                <lb break="no"/>umide per recente pioggia, esse divengono e rimangono 
+                <lb break="no"/>lungamente disadatte alle lavorazioni, perché col calpestarle, 
+                <lb break="no"/>comprimerle, romperle, e trasportarle, si fanno ribelli ad 
+                <lb break="no"/>una buona fruttificazione nel seguente estate. Succede così 
+                <lb break="no"/>che i contadini non abbiano provviste sufficienti per vivere, 
+                <lb break="no"/>e non trovino modo di guadagnare, lavorando. Ne segue 
+                <lb break="no"/>uno squallore lamentevole in pianure, come le nostre, tra le 
+                <lb break="no"/>più fertili d'<country ref="#IT">Italia</country>. Quando il grano turco è scarso, il suo 
+                <lb break="no"/>prezzo sale, mancano ai contadini giornalieri il vitto e i 
+                <lb break="no"/>mezzi di procurarselo: parte si dà ad elemosinare, parte 
+                <lb break="yes"/>tumultua e chiede ai <choice><sic>Municipii</sic><corr>Municipi</corr></choice> o polenta o lavori, al <orgName type="government" ref="#RDI">Go<pc force="inter">-</pc>
+                <lb break="yes"/>verno</orgName> argini o fortificazioni da erigere. Sono questi <choice><orig>spe<pc force="inter">-</pc>
+                <lb break="no"/>dienti</orig> <reg>espedienti</reg></choice> che si capiscono, pensando ad un territorio, corso
+                <lb break="no"/>dal <name type="place" ref="#PO_F">Po</name>, e in più luoghi fortificato.
+              
+           </ab>
+
+            <ab facs="#p53_p2_a2" xml:id="p53_par2_a2" corresp="#c2_53_2">
+              
+                <lb break="no"/>Ad ogni inverno, come quello che corre, si rinnovano gli 
+                <lb break="no"/>alti <choice><orig>lai</orig><reg>lamenti</reg></choice><choice><orig>pel</orig><reg>per il</reg></choice> macinato, per l'imposta del sale; ed a queste 
+                <lb break="no"/>maledizioni dei contadini fanno eco le mormorazioni della 
+                <lb break="yes"/>piccola borghesia, tormentata anch'essa dalle imposte. Il <orgName type="government" ref="#RDI">Go<pc force="inter">-</pc>
+                <lb break="no"/>verno nazionale</orgName> è censurato quanto e più non lo sia mai 
+                <lb break="no"/>stato il <orgName type="government" ref="#AUGOV">Governo austriaco</orgName>! È comune sentenza popolare tra 
+                <lb break="yes"/>noi che il nuovo <orgName type="government" ref="#RDI">Governo</orgName> sia <emph rend="italic">il Governo dei signori!!</emph> È na<pc force="inter">-</pc>
+                <lb break="yes"/>turale che la borghesia dei nostri <orgName type="government" ref="#comune">Comuni</orgName> rurali, malcon<pc force="inter">-</pc>
+                <lb break="no"/>tenta delle tasse che la colpiscono, stretta in mezzo dai 
+                <lb break="no"/>clericali da un lato e dai radicali dall'altro, per paura, per 
+                <lb break="yes"/>istinto nazionale e liberale, per non perdere della sua in<pc force="inter">-</pc>
+                <lb break="no"/>fluenza sulle classi povere, per difetto di coltura, per altre 
+                <lb break="no"/>infinite ragioni, faccia le viste di aderire ai radicali, qua<unclear reason="faded">n</unclear>do 
+                <lb break="yes"/>anche, in cuor suo, sia ultra-conservatrice. Così, <choice> <orig>colle</orig> <reg>con le</reg></choice> con <pc force="inter">-</pc>
+                <lb break="yes"/>dizioni sociali peggiorano ogn'anno anche le condizioni po<pc force="inter">-</pc>
+                <lb break="no"/>litiche del paese, il quale va predisponendosi a correre i 
+                <lb break="no"/>rischi o d'una rivoluzione o d'una reazione politica.
+              
+            </ab>
+
+            
+            <pb n="54" facs="#p54" xml:id="pb54"/>
+
+            <cb n="1" xml:id="c1_54" corresp="#pb54"/>
+              <ab facs="#p54_p1" xml:id="p54_par1" corresp="#c1_54">
+                
+                  <lb break="no"/>Intanto l'emigrazione è diventata di moda, e malgrado 
+                  <lb break="no"/>i disinganni e i mille tormenti di coloro che già partirono 
+                  <lb break="yes"/>per il <country ref="#BR">Brasile</country>, si parla sempre di lasciar l'<country ref="#IT">Italia</country>, diven<pc force="inter">-</pc>
+                  <lb break="no"/>tata <term type="metaphor">matrigna</term> ai figli che ne fecondano le migliori zolle. 
+                  <lb break="yes"/>Non si può negare che qualcosa di meritato ci sia in que<pc force="inter">-</pc>
+                  <lb break="no"/>st'avversione popolare contro il <orgName type="government" ref="#RDI">Governo nazionale</orgName>, il quale, 
+                  <lb break="no"/>non avendo certo a rimproverarsi cattive intenzioni, ha però 
+                  <lb break="yes"/>gravissimi peccati d'omissione e di beato ed egoistico ot<pc force="inter">-</pc>
+                  <lb break="no"/>timismo da rinfacciare a sè medesimo. Parte di colpa deve 
+                  <lb break="no"/>darsi alla classe, che <choice> <orig>colla</orig> <reg>con la</reg></choice> rivoluzione, ha preso in mano 
+                  <lb break="no"/>sua non solo il <orgName type="government" ref="#RDI">Governo centrale</orgName>, ma quello delle <orgName type="government" ref="#province">Province</orgName> 
+                  <lb break="yes"/>e dei <orgName type="government" ref="#comune">Comuni</orgName>. Non sono pochi, di questa categoria di per<pc force="inter">-</pc>
+                  <lb break="no"/>sone, gli uomini di mente incolta, di animo angusto, per  
+                  <lb break="no"/>difetto di studi e di educazione, i quali non sanno nulla 
+                  <lb break="no"/>della grave responsabilità, e dei doveri che accompagnano 
+                  <lb break="no"/>l'esercizio del potere. Essi sono la vera classe dominante
+                  <lb break="no"/>nel nostro paese, padroni, in fondo, di ogni cosa, e criticano 
+                  <lb break="no"/>tutto quello che si è fatto, quasiché essi non ci fossero per 
+                  <lb break="no"/>nulla. Essi non sanno che invocare rimedi di pura forma, 
+                  <lb break="no"/>quali sarebbero quelli di un cambiamento nella forma del 
+                  <lb break="no"/>governo.
+                
+              </ab>
+
+
+              <ab facs="#p54_p2" xml:id="p54_par2" corresp="#c1_54">
+                
+                  <lb break="yes"/>Molti proprietari, da noi, non si curano nè della colti<pc force="inter">-</pc>
+                  <lb break="no"/>vazione delle loro terre, nè delle condizioni dei lavoratori, 
+                  <lb break="no"/>come se fossero estranei e a quelle e a questi. Si usa di 
+                  <lb break="no"/>dare in affitto le nostre tenute, discretamente estese ed 
+                  <lb break="no"/><distinct type="archaic"><choice><orig>abbisognevoli</orig><reg>bisognose</reg></choice> </distinct> di un capitale non piccolo di speculazione 
+                  <lb break="no"/>agraria, a delle famiglie di contadini, fornite di qualche  
+                  <lb break="no"/>provvista di strumenti agrari, buoi, e d'altre <term rend="italic" type="verbum">scorte.</term>
+                  <lb break="no"/>Queste fa<unclear>m</unclear>iglie non possono esercitare una vera industria 
+                  <lb break="no"/>agraria, capace di far rendere alle nostre terre un prodotto 
+                  <lb break="no"/>corrispondente alle cresciute esigenze dei proprietari, e del 
+                  <lb break="yes"/><orgName type="government" ref="#RDI">Governo</orgName>. Non lo possono per difetto di capitali, e per di<pc force="inter">-</pc>
+                  <lb break="no"/>fetto di quel sagace spirito di speculazione che viene da 
+                  <lb break="no"/>una cognizione esatta dei diversi elementi della propria 
+                  <lb break="no"/>industria. Sono in generale contadini, poco meno rozzi e 
+                  <lb break="no"/>poco più istruiti dei braccianti.
+                  <lb break="yes"/>Essi applicano i vecchi andamenti, e se pure qual<pc force="inter">-</pc> 
+                  <lb break="no"/>cosa di meglio tentano e fanno, tutto ciò avviene in una 
+                  <lb break="no"/>misura inferiore ai bisogni dei tempi e della cresciuta po<pc force="inter">-</pc>
+                  <lb break="no"/>polazione. D'altra parte, per essere in grado di pagare le 
+                  <lb break="yes"/>nuove tasse e i cresciuti affitti, essi cercano di <unclear >e</unclear>conomiz<pc force="inter">-</pc>
+                  <lb break="no"/>zare sui salari e sui lavori di coltivazione. A <choice><orig>mala pena</orig><reg>malapena</reg></choice> 
+                  <lb break="no"/>riescono così a stare in piedi loro, mentre intorno ad essi 
+                  <lb break="no"/>si diffonde la miseria negli operai dei nostri campi.
+                
+              </ab>
+
+
+             <ab facs="#p54_p3" xml:id="p54_par3" corresp="#c1_54">
+                
+                  <lb break="no"/>Per iniziativa del senatore <name type="person" ref="#arrivabene">Arrivabene</name> e del <choice><orig>giovine</orig><reg>giovane</reg></choice> conte 
+                  <lb break="no"/><name type="person" ref="darco">D'Arco</name>, s'è cercato fondare un'Associazione di proprietari e  
+                  <lb break="no"/>coltivatori (affittuari), la quale studi e metta in 
+                  <lb break="no"/>opera i mezzi per provvedere di sostentamento, dando loro da  
+                  <lb break="no"/>lavorare, i numerosi nostri braccianti minacciati dalla fame 
+                  <lb break="no"/>nell'inverno e tormentati in molte guise dalla miseria. A 
+                  <lb break="no"/><name type="place" ref="#MANT">Mantova</name> si è costituito un comitato centrale; il quale dovrà 
+                  <lb break="no"/>poi cooperare con comitati sparsi nella provincia. Quella 
+                  <lb break="yes"/>iniziativa e quest'associazione indicano chiaramente la gra<pc force="inter">-</pc>
+                  <lb break="yes"/>vità del male e la lodevole intenzione di curarne l’acer<pc force="inter">-</pc>
+                  <lb break="no"/>bità. L'idea, messa innanzi dal conte <name type="person" ref="darco">D’Arco</name>, di fare in 
+                  <lb break="no"/>modo che diminuisca il numero dei contadini non addetti
+                  <lb break="no"/>stabilmente alla coltivazione dei nostri poderi; quell’idea 
+                  <lb break="no"/>designa chiaramente lo scopo, al quale fa <choice><orig>d'uopo</orig><reg>bisogno</reg></choice> tendere.  
+                  <lb break="no"/>Per giungervi, però, l'Associazione dovrebbe profondamente 
+                  <lb break="no"/>modificare le condizioni presenti della speculazione agraria 
+                  <lb break="no"/>tra noi. La buona volontà non può bastare. Bisogna che 
+                  <lb break="no"/>il tema sia prima chiarito da un'accurata indagine dei fatti, 
+                  <lb break="no"/>come ora sono. L'Associazione dovrà studiare prima di 
+                  <lb break="no"/>poter fare.
+                
+              </ab>
+
+
+              <ab facs="#p54_p4" xml:id="p54_par4" corresp="#c1_54">
+                
+                  <lb break="no"/>Intanto bisogna che chi può, <orgName type="government" ref="#comune">Comuni</orgName>, <orgName type="government" ref="#province"><choice><sic>Provincie</sic><corr>Province</corr></choice></orgName>, <orgName type="government" ref="#RDI">Governo</orgName>, 
+                  <lb break="yes"/>affittuari e proprietari, vengano in soccorso dei più strin<pc force="inter">-</pc>
+                  <lb break="yes"/>genti bisogni dei nostri contadini. Si tratta per ora di pro<pc force="inter">-</pc>
+                
+              </ab>
+
+            <cb n="2" xml:id="c2_54" corresp="#pb54"/>
+            <ab facs="#p54_p5" xml:id="p54_par5" corresp="#c2_54">
+              
+                <lb break="yes"/>curar loro lavori e soccorsi <ellipsis> <metamark>—</metamark> </ellipsis> ma lo scopo finale do<pc force="inter">-</pc>
+                <lb break="no"/>vrebb'essere non di fare la carità, ma di correggere, con 
+                <lb break="yes"/><distinct type="archaic"><choice><orig>sagrifici</orig><reg>sacrifici</reg></choice></distinct> di denaro e di cure, un difetto dell'organismo in<pc force="inter">-</pc>
+                <lb break="yes"/>dustriale della nostra agricoltura, aggravato da molte cir<pc force="inter">-</pc>
+                <lb break="no"/>circostanze politiche, sociali ed economiche.
+              
+            </ab>
+
+
+          </div>
+
+
+      <div>
+
+        <pb n="63" facs="#p63" xml:id="pb63"/>
+        <cb n="1" xml:id="c1_63" corresp="#pb63"/>
+        <head rend="align(center)" facs="#p63_titolo" xml:id="_p63_titolo" corresp="#c1_63">
+             <title>SCIENZE POLITICHE.</title>
+        </head>
+              <ab facs="#p63_bibl" xml:id="_p63_bibl" corresp="#c1_63">
+                <lb break="yes"/><name type="person" ref="#rattazzi" rend="case(allcaps)">Urbano Rattazzi</name>. <name type="bibl" ref="#dispar" rend="italic">Discorsi Parlamentari</name>, raccolti e pubbli<pc force="inter">-</pc>
+                <lb break="yes"/> cati per cura dell'avv. cav. <name type="person" rend="italic" ref="#scovazzi">Giovanni Scovazzi</name>, bibliote<pc force="inter">-</pc>
+                <lb break="no"/>cario della  <orgName type="government" ref="#camera_elettiva">Camera dei Deputati</orgName>. Volume 2°<metamark>—</metamark><name type="place" ref="#ROMA">Roma</name>, <date when="1877">1877</date>.
+            </ab>
+
+
+                <ab facs="#p63_p1" xml:id="p63_par1" corresp="#c1_63">
+                  
+                    <lb break="no"/>La squisita <term>arte parlamentare</term> di <name type="person" ref="#rattazzi">Urbano Rattazzi</name> è 
+                    <lb break="no"/>stata sempre riconosciuta, anche da coloro che a lui, nelle 
+                    <lb break="no"/>lotte di governo, furono costantemente <choice><sic>avversarii</sic><corr>avversari</corr></choice>. Epperò 
+                    <lb break="no"/>in un paese come l'<country ref="#IT">Italia</country>, dove l'educazione politica può 
+                    <lb break="no"/>dirsi tuttavia incipiente, opera utile riesce certamente il 
+                    <lb break="no"/>mettere in evidenza le speciali qualità di chi seppe salire 
+                    <lb break="no"/>in fama quale oratore politico e reggitore della pubblica 
+                    <lb break="no"/>cosa. Ond'è che, dopo la raccolta dei discorsi del <name type="person" ref="#cavour">conte di 
+                    <lb break="no"/>Cavour</name>, eseguita per deliberazione solenne del <orgName ref="#PN">Parlamento 
+                    <lb break="no"/>Nazionale</orgName>, meritevole d'ogni encomio è stato il pensiero 
+                    <lb break="no"/>del <name type="person" ref="#scovazzi">signor Scovazzi</name>, raccogliendo i discorsi del  <name type="person" ref="#rattazzi">Rattazzi </name>.
+                  
+                </ab>
+
+                <ab facs="#p63_p2" xml:id="p63_par2" corresp="#c1_63">
+                  
+                    <lb break="no"/>La collezione completa formerà sette grossi volumi 
+                    <lb break="no"/>di ricca edizione. Di recente è venuto alla luce il secondo. 
+                    <lb break="yes"/>Il precedente volume conteneva i primi discorsi<choice><orig>pronun<pc force="inter">-</pc>
+                    <lb break="yes"/>ziati</orig><reg>pronunciati</reg></choice>, quando ancora nel <orgName ref="#parsub">Parlamento Subalpino</orgName> la steno<pc force="inter">-</pc>
+                    <lb break="no"/>grafia non era perfettamente <choice><orig>organata</orig><reg>organizzata</reg></choice>, e poi arrivava sino 
+                    <lb break="no"/>alla seconda sessione della quarta legislatura. Questo se
+                    <lb break="yes"/>condo comincia dalla seduta del <date when="1853-11-14">14 novembre 1853</date> nel <orgName ref="#senato">Se<pc force="inter">-</pc>
+                    <lb break="yes"/>nato</orgName> e arriva a quella del <date when="1854-05-20">20 maggio 1854</date> nella <orgName ref="#camera_elettiva">Camera 
+                    <lb break="no"/>elettiva</orgName>. Comprende in tutto 19 discorsi; e in essi è facile 
+                    <lb break="no"/>scorgere l'ascendente <unclear reason="faded">e</unclear> l'autorità già presa in <orgName ref="#PN">Parlamento</orgName>
+                    <lb break="yes"/>dal <name type="person" ref="#rattazzi">Rattazzi</name>; il quale, essendo <rs ref="#MGG">Ministro di grazia e giusti<pc force="inter">-</pc>
+                    <lb break="no"/>zia</rs>, assumeva del pari la reggenza del <orgName ref="#MINIIN">Ministero dell'in
+                    <lb break="yes"/>terno</orgName>, e discorreva con eguale successo su materie dispa<pc force="inter">-</pc>
+                    <lb break="no"/>rate e di non sua competenza diretta. Forse in questa
+                    <lb break="yes"/>pubblicazione è da lamentare la <term>mancanza di <choice><sic>sufficenti</sic><corr>sufficienti</corr></choice> an<pc force="inter">-</pc>
+                    <lb break="yes"/>notazioni storiche ed esplicative</term>; ma varrà meglio parlarne 
+                    <lb break="no"/>più lungamente quando l' <name type="bibl" ref="#dispar">opera</name> sarà compiuta.
+                
+            </ab>
+
+            </div>
+
+            <div>
+            <pb n="64" facs="#p64" xml:id="pb64"/>
+            <cb n="1" xml:id="c1_64" corresp="#pb64"/>
+                <head rend="align(center)" facs="#p64_titolo" xml:id="_p64_titolo" corresp="#c1_64">
+             <title>SCIENZE MILITARI.</title>
+        </head>
+                <ab facs="#p64_bibl" xml:id="_p64_bibl" corresp="#c1_64">
+    
+                           <lb break="yes"/> <name rend="case(allcaps)" ref="#dabormida">Vittorio Dabormida. </name><name type="bibl" ref="#battaglia_assietta" rend="italic">La battaglia dell'Assietta.</name> Studio sto<pc force="inter">-</pc>
+                           <lb break="no"/>rico. <metamark>—</metamark><name type="place" ref="#ROMA">Roma</name>, <date when="1877">1877</date>
+                    
+                </ab>
+
+                <ab facs="#p64_p1" xml:id="p64_par1" corresp="#c1_64">
+
+                          <lb break="no"/>L'incarico dato all'<name type="person" ref="#dabormida">Autore</name> di fare una conferenza sulla 
+                          <lb break="no"/><eventName ref="#BDA">battaglia dell'</eventName><name type="place" ref="#assietta">Assietta</name> fu l'origine di questo lavoro, che il 
+                          <lb break="no"/><name type="person" ref="#dabormida">Dabormida</name> diede poi alle stampe ampliato ed arricchito di 
+                          <lb break="yes"/>nuovi particolari. Spiegata l'origine e giustificata la pubbli<pc force="inter">-</pc>
+                          <lb break="yes"/>cazione del suo libro, <name type="person" ref="#dabormida">l'Autore</name> comincia col descrivere l'or<pc force="inter">-</pc>
+                          <lb break="no"/>dinamento militare del <name type="place" ref="#piemonte">Piemonte</name> alla metà del decimottavo 
+                          <lb break="no"/>secolo, <distinct>inframmettendovi</distinct> spesso osservazioni e giudizi suoi 
+                          <lb break="no"/>propri che in genere ci parvero <distinct type="literal">acconci</distinct> ed esatti, e passa 
+                          <lb break="yes"/>poi a discorrere, piuttosto distesamente, delle condizioni po<pc force="inter">-</pc>
+                          <lb break="no"/>litiche e militari del <name type="place" ref="#piemonte">Piemonte</name> dal principio della <eventName ref="#GPS">guerra della 
+                          <lb break="yes"/>Prammatica Sanzione</eventName> al <date>giugno 1747</date>. Nei quattro succes<pc force="inter">-</pc>
+                          <lb break="yes"/>sivi capitoli, il <name type="person" ref="#dabormida">Dabormida</name> tratta dei preparativi della cam<pc force="inter">-</pc>
+                          <lb break="no"/>pagna del <date>1747</date> fatti tanto dai Gallo-Ispani quanto dagli 
+                          <lb break="no"/>Austro-Sardi, e, toccato della <eventName ref="#RDGEN">rivoluzione di </eventName><name type="place" ref="#GE">Genova</name> del <date when="1746">1746</date> 
+                          <lb break="no"/>e dell'assedio postovi dallo <name type="person" ref="#schulenburg">Schulenburg</name> nella primavera 
+                          <lb break="yes"/>successiva, discorre distesamente delle operazioni dell'eser<pc force="inter">-</pc>
+                          <lb break="no"/>cito, comandato nominalmente dall'infante <name type="person" ref="#DF">Don Filippo</name> 
+                          <lb break="yes"/>lungo la riviera ligure di <name type="place" ref="#ponente">Ponente</name>, non che di quelle del ge<pc force="inter">-</pc>
+                          <lb break="yes"/>nerale <name type="person" ref="#leutrum">Leutrum</name> suo avversario, e narra infine, coi più mi<pc force="inter">-</pc>
+                          <lb break="yes"/>nuti particolari, i preparativi fatti dai Gallo-Ispani nel <name type="place" ref="#delfinato">Delfi<pc force="inter">-</pc>
+                          <lb break="no"/>nato</name> allo scopo d'invadere il <name type="place" ref="#piemonte">Piemonte</name> per le valli della <damage agent="inkblot" degree="low"> </damage>
+                          <lb break="no"/><name type="place" ref="#stura">Stura</name> e del <name type="place" ref="#chisone">Chisone</name>, le disposizioni prese da quell'acuto 
+                          <lb break="no"/>ingegno militare di <name type="person" ref="#CET">Carlo Emanuele III</name> per non trovarsi 
+                          <lb break="no"/>impreparato su qualche punto della frontiera alpina, ed il 
+                          <lb break="yes"/>passaggio del <name type="place" ref="#monginevra">Monginevra</name> eseguito dai Francesi sotto il <name type="person" ref="#CB">ca<pc force="inter">-</pc>
+                          <lb break="no"/>valiere di Bellisle</name>, nonché le operazioni dei due avversari 
+                          <lb break="no"/>nei tre giorni che precedettero il fatto d'armi dell'<name type="place" ref="#assietta">Assietta</name> 
+                          <lb break="no"/>(<date when="1747-07-19">19 luglio 1747</date>). Il penultimo capitolo del libro contiene una 
+                          <lb break="no"/>carta topografica, copia di un originale dell'epoca, esistente 
+                          <lb break="no"/>nell'Archivio di Stato di <name type="place" ref="#TO">Torino</name>; è consacrato alla descrizione 
+                          <lb break="no"/>del terreno del combattimento dell'<name type="place" ref="#assietta">Assietta</name>, dei <term type="military">trinceramenti</term> 
+                          <lb break="no"/>con cui fu <choice><orig>afforzato</orig><reg>rafforzato</reg></choice>, e dei più minuti particolari di quella lotta, 
+                          <lb break="no"/>in cui 3000 piemontesi, appena sostenuti da 2000 austriaci, e 
+                          <lb break="yes"/>senz'<term type="military">artiglieria</term>, respinsero 20,000 francesi protetti da 7 can<pc force="inter">-</pc>
+                          <lb break="no"/>noni facendo loro perdere 5300 soldati e 430 ufficiali, fra i 
+                          <lb break="no"/>quali <name type="person" ref="#CB">il cavaliere stesso di Bellisle</name>, che cadeva eroicamente 
+                          <lb break="yes"/>ferito di <term>baionetta</term> e trapassato da due palle. Chiude il li<pc force="inter">-</pc>
+                          <lb break="no"/>bro un breve esame critico dell'<name type="person" ref="#dabormida">Autore</name> circa le operazioni 
+                          <lb break="yes"/>che precedettero il <eventName ref="#BDA">combattimento dell'<name type="place" ref="#assietta">Assietta</name></eventName>, e le di<pc force="inter">-</pc>
+                          <lb break="no"/>sposizioni prese dai due avversari durante lo stesso.
+                      
+                    </ab>
+
+                    <ab facs="#p64_p2" xml:id="p64_par2" corresp="#c1_64">
+
+                          <lb break="no"/> Il libro di cui ci stiamo occupando sarà certamente letto 
+                          <lb break="no"/>con interesse da quanti si dilettano di cose militari, ed esso 
+                          <lb break="no"/>deve essere costato all'<name type="person" ref="#dabormida">Autore</name>, che vi si rivela assai versato 
+                          <lb break="no"/>negli studi storico-militari, gravi fatiche, giacché in parte 
+
+                    </ab>
+
+                    <cb n="2" xml:id="c2_64" corresp="#pb64"/>
+                    <ab facs="#p64_p3" xml:id="p64_par3" corresp="#c2_64">
+                          <lb break="no"/>è desunto da documenti inediti esistenti nell'Archivio di 
+                          <lb break="yes"/>Stato di <name type="place" ref="#TO">Torino</name> e nelle biblioteche del <name type="person" ref="#CET">Re</name> e del <name type="person" ref="#ducadigen">Duca di Ge<pc force="inter">-</pc>
+                          <lb break="no"/>nova</name>, nonché dalle più importanti ed accreditate pubblica
+                          <lb break="no"/>zioni storiche. È da desiderarsi che queste pubblicazioni 
+                          <lb break="no"/>speciali, conscienziose ed esatte, vadano moltiplicandosi <choice><abbr>sì</abbr><expan>così</expan></choice>
+                          <lb break="no"/>perchè l'esperienza del passato è sempre la miglior scuola, 
+                          <lb break="no"/><choice><abbr>sì</abbr><expan>così</expan></choice> perchè crediamo col <name type="person" ref="#dabormida">Dabormida</name> che le passate glorie mi
+                          <lb break="yes"/>litari delle varie province del <orgName ref="#RDI">Regno</orgName> non sono glorie regio<pc force="inter">-</pc>
+                          <lb break="no"/>nali ma glorie italiane. Ci sia per altro concesso di fare al 
+                          <lb break="no"/>libro due lievi appunti. Nelle pubblicazioni originali, anche 
+                          <lb break="yes"/>se militari, la forma deve essere curata al pari della so<pc force="inter">-</pc>
+                          <lb break="no"/>stanza ; ora ci pare che l'<name type="person" ref="#dabormida">Autore</name> abbia poco usato della 
+                          <lb break="no"/>lima nella prima parte del libro, che in taluni punti riesce 
+                          <lb break="no"/>un poco <distinct type="archaic">avviluppata</distinct>. Nelle parti seguenti, l'<name type="person" ref="#dabormida">Autore</name>, trattando 
+                          <lb break="yes"/>esclusivamente di cose militari, si sente più in agio, e la nar<pc force="inter">-</pc>
+                          <lb break="no"/>razione corre più spiccia. Il secondo appunto riguarda il 
+                          <lb break="no"/>titolo del libro che non ci pare il più proprio relativamente 
+                          <lb break="no"/>al contenuto di questo. A far ben comprendere il fatto del
+                          <lb break="no"/>l'<name type="place" ref="#assietta">Assietta</name>, descritto in 18 pagine, non sarebbe stata di certo 
+                          <lb break="yes"/>necessaria una prefazione di oltre 90, ed avrebbe ben po<pc force="inter">-</pc>
+                          <lb break="no"/>tuto cominciare all'incirca da pag. 45 od al più da pag. 38.
+                    
+                   </ab>
+
+              </div>
+            
+
+
+
+                <div>
+                <pb n="64" facs="#p64-2" xml:id="pb64-2"/>
+                    <cb n="2" xml:id="c2_64_2" corresp="#pb64-2"/>
+                    <head rend="align(center)" facs="#p64_titolo_n" xml:id="_p64_titolo_n" corresp="#c2_64_2">
+                    <title>NOTIZIE.</title></head>
+                    <ab facs="#p64_p1" xml:id="p64_par4" corresp="#c2_64_2">
+                    
+                        <lb break="no"/><pc force="inter">-</pc> I <term>Comizi Agrari</term> di <name type="place" ref="#SIE">Siena</name> e di <name type="place" ref="#BRE">Brescia</name> hanno protestato contro 
+                        <lb break="no"/>la soppressione del<orgName ref="#MAIC"> Ministero di Agricoltura, Industria e Commercio</orgName>. 
+                        <lb break="no"/>Si dice che molti altri Comizi seguiranno il loro esempio.
+                
+                   </ab> 
+                    <ab facs="#p64_p2" xml:id="p64_par5" corresp="#c2_64_2">
+                
+                    <lb break="no"/><pc force="inter">-</pc> Un <distinct type="archaic"><choice><sic>patriotta</sic><corr>patriota</corr></choice></distinct> slavo ci fa l'osservazione che il <name type="person" ref="#niccolo">Principe di</name> <name type="place" ref="#MTN">Monte<pc force="inter">-</pc>
+                    <lb break="no"/>negro</name> si chiama <name type="person" ref="#niccolo">Niccolò</name> e non Nikita; quest'ultimo nome sarebbe, se<pc force="inter">-</pc>
+                    <lb break="no"/>condo lui, un soprannome derisorio datogli dai Tedeschi.
+                    
+                    </ab>
+                </div>
+        </body>
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        <back>
+            <div>
+                <listPerson>
+                    <head>Elenco persone:</head>
+                    <person xml:id="GD">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/William_Ewart_Gladstone"/>
+                            <forename>William</forename>
+                            <surname>Gladstone</surname>
+                        </persName>
+                        <birth>
+                            <date when="1809-12-29">29/12/1809</date>
+                        </birth>
+                        <death>
+                            <date when="1898-05-19">19/05/1898</date>
+                        </death>
+                        <occupation>Primo Ministro, politico</occupation>
+                    </person>
+
+                    <person xml:id="arrivabene">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Giovanni_Arrivabene"/>
+                            <forename>Giovanni</forename>
+                            <surname>Arrivabene</surname>
+                        </persName>
+                        <birth>
+                            <date when="1787-06-24">24/06/1787</date>
+                        </birth>
+                        <death>
+                            <date when="1881-01-11">11/01/1881</date>
+                        </death>
+                        <occupation>politico, economista</occupation>
+                    </person>
+
+                    <person xml:id="darco">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/D%27Arco"/>
+                            <forename>Giovanni</forename>
+                            <surname>Arrivabene</surname>
+                        </persName>
+                        <birth>
+                            <date when="1787-06-24">24/06/1787</date>
+                        </birth>
+                        <death>
+                            <date when="1881-01-11">11/01/1881</date>
+                        </death>
+                        <occupation>politico, economista</occupation>
+                    </person>
+
+                    <person xml:id="rattazzi">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Urbano_Rattazzi#:~:text=Urbano%20Pio%20Francesco%20Giacomo%20Rattazzi%20%28Alessandria%2C%2030%20giugno,5%20giugno%201873%29%20%C3%A8%20stato%20un%20politico%20italiano."/>
+                            <forename>Urbano</forename>
+                            <surname>Rattazzi</surname>
+                        </persName>
+                        <birth>
+                            <date when="1808-06-30">30/06/1808</date>
+                        </birth>
+                        <death>
+                            <date when="1873-06-05">05/06/1873</date>
+                        </death>
+                        <occupation>politico</occupation>
+                    </person>
+
+                    <person xml:id="cavour">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Camillo_Benso,_conte_di_Cavour"/>
+                            <forename>Camillo</forename>
+                            <surname>Benso</surname>
+                        </persName>
+                        <birth>
+                            <date when="1810-08-10">10/08/1810</date>
+                        </birth>
+                        <death>
+                            <date when="1861-06-06">06/06/1861</date>
+                        </death>
+                        <occupation>politico</occupation>
+                    </person>
+
+                    <person xml:id="dabormida">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Vittorio_Dabormida"/>
+                            <forename>Vittorio</forename>
+                            <surname>Dabormida</surname>
+                        </persName>
+                        <birth>
+                            <date when="1842-11-22">22/11/1842</date>
+                        </birth>
+                        <death>
+                            <date when="1861-03-01">01/03/1896</date>
+                        </death>
+                        <occupation>Generale</occupation>
+                    </person>
+
+                    <person xml:id="scovazzi">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Scovazzi</surname>
+                        </persName>
+                        <birth>
+                            <date when="1845-07-22">22/07/1845</date>
+                        </birth>
+                        <death>
+                            <date when="1922-04-16">16/04/1922</date>
+                        </death>
+                        <occupation>Avvocato</occupation>
+                    </person>
+
+                     <person xml:id="schulenburg">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Johann_Matthias_von_der_Schulenburg"/>
+                            <forename>Johann Matthias</forename>
+                            <surname>Schulenburg</surname>
+                        </persName>
+                        <birth>
+                            <date when="1661-08-08">08/08/1661</date>
+                        </birth>
+                        <death>
+                            <date when="1747-03-14">14/03/1747</date>
+                        </death>
+                        <occupation>militare</occupation>
+                    </person>
+
+                     <person xml:id="DF">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Filippo_I_di_Parma"/>
+                            <forename>Filippo I di Borbone</forename>
+                        </persName>
+                        <birth>
+                            <date when="1720-03-15">15/03/1720</date>
+                        </birth>
+                        <death>
+                            <date when="1765-07-18">18/07/1765</date>
+                        </death>
+                        <occupation>Duca</occupation>
+                    </person>
+
+
+                    <person xml:id="leutrum">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Karl_Sigmund_Friedrich_Wilhelm_von_Leutrum"/>
+                            <forename>Karl</forename>
+                            <surname>Von Leutrum</surname>
+                        </persName>
+                        <birth>
+                            <date when="1692-06-27">27/06/1692</date>
+                        </birth>
+                        <death>
+                            <date when="1755-05-16">16/05/1755</date>
+                        </death>
+                        <occupation>militare</occupation>
+                    </person>
+
+                    <person xml:id="CET">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Carlo_Emanuele_III_di_Savoia"/>
+                            <forename>Carlo Emanuele III di Savoia</forename>
+                        </persName>
+                        <birth>
+                            <date when="1701-04-27">27/04/1701</date>
+                        </birth>
+                        <death>
+                            <date when="1773-02-20">20/02/1773</date>
+                        </death>
+                        <occupation>Re</occupation>
+                    </person>
+
+                    <person xml:id="CB">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Louis_Charles_Armand_Fouquet_de_Belle-Isle"/>
+                            <forename>Louis Charles</forename>
+                            <surname>De Belle-Isle</surname>
+                        </persName>
+                        <birth>
+                            <date when="1693-09-19">19/09/1693</date>
+                        </birth>
+                        <death>
+                            <date when="1747-07-19">19/07/1747</date>
+                        </death>
+                        <occupation>militare</occupation>
+                    </person>
+
+                    <person xml:id="ducadigen">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Tommaso_di_Savoia-Genova"/>
+                            <forename>Tommaso Alberto Vittorio di Savoia</forename>
+                        </persName>
+                        <birth>
+                            <date when="1854-02-06">06/02/1854</date>
+                        </birth>
+                        <death>
+                            <date when="1931-04-15">15/04/1931</date>
+                        </death>
+                        <occupation>militare, duca</occupation>
+                    </person>
+
+                    <person xml:id="niccolo">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Nicola_I_del_Montenegro"/>
+                            <forename>Nicola </forename>
+                            <surname>Petrović-Njegoš</surname>
+                        </persName>
+                        <birth>
+                            <date when="1841-10-07">07/10/1841</date>
+                        </birth>
+                        <death>
+                            <date when="1921-03-01">01/03/1921</date>
+                        </death>
+                        <occupation> Re </occupation>
+                    </person>
+              </listPerson>
+
+
+
+              <listPlace>
+                    <head>Elenco luoghi:</head>
+                    <place xml:id="RU" type="Stato">
+                        <placeName>Russia</placeName>
+                        <location>
+                            <bloc>Europa e Asia</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="TU" type="Stato">
+                        <placeName>Turchia</placeName>
+                        <location>
+                            <bloc>Asia</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="IT" type="Stato">
+                        <placeName>Italia</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="EO" type="continente">
+                        <placeName>Europa Occidentale</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="MO" type="città">
+                        <placeName>Mosca</placeName>
+                        <location>
+                            <country>Russia</country>
+                            <bloc>Europa e Asia</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="AU" type="Stato">
+                        <placeName>Austria</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="EN" type="Stato">
+                        <placeName>Inghilterra</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="PO_F" type="Fiume">
+                        <placeName>Po</placeName>
+                        <location>
+                            <bloc>Italia</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="BR" type="Stato">
+                        <placeName>Brasile</placeName>
+                        <location>
+                            <bloc>Sud-America</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="MANT" type="città">
+                        <placeName>Mantova</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="assietta" type="montagna">
+                        <placeName>Assietta</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="piemonte" type="regione">
+                        <placeName>Piemonte</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="GE" type="città">
+                        <placeName>Genova</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="delfinato" type="regione">
+                        <placeName>Delfinato</placeName>
+                        <location>
+                        <country>Francia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="stura" type="fiume">
+                        <placeName>Stura</placeName>
+                        <location>
+                            <bloc>Italia</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="chisone" type="fiume">
+                        <placeName>Chisone</placeName>
+                        <location>
+                            <bloc>Italia</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="monginevra" type="montagna">
+                        <placeName>Colle del Monginevra</placeName>
+                        <location>
+                        <country>Francia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="TO" type="città">
+                        <placeName>Torino</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="SIE" type="città">
+                        <placeName>Siena</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="BRE" type="città">
+                        <placeName>Brescia</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="MTN" type="Stato">
+                        <placeName>Montenegro</placeName>
+                        <location>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                    <place xml:id="ponente" type="località">
+                        <placeName>Riviera di Ponente</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+                     <place xml:id="ROMA" type="città">
+                        <placeName>Roma</placeName>
+                        <location>
+                        <country>Italia</country>
+                            <bloc>Europa</bloc>
+                        </location>
+                    </place>
+              </listPlace>
+
+
+              <listOrg>
+                    <org xml:id="GOVR">
+                        <orgName>
+                            <name>Impero Russo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Impero_russo"/>
+                        </orgName>
+                        <state type="politica" from="1721" to="1905"></state>
+                    </org>
+                    <org xml:id="chiesa">
+                        <orgName>
+                            <name>Stato della Chiesa</name>
+                            <ref target="https://it.wikipedia.org/wiki/Stato_Pontificio"/>
+                        </orgName>
+                        <state type="politica" from="756" to="1870"></state>
+                    </org>
+                     <org xml:id="AUGOV">
+                        <orgName>
+                            <name>Impero Austro-Ungarico</name>
+                            <ref target="https://it.wikipedia.org/wiki/Impero_austro-ungarico"/>
+                        </orgName>
+                        <state type="politica" from="1867" to="1918"></state>
+                    </org>
+                    <org xml:id="PN">
+                        <orgName>
+                            <name>Parlamento Nazionale</name>
+                            <ref target="https://it.wikipedia.org/wiki/Parlamento_del_Regno_d%27Italia"/>
+                        </orgName>
+                        <state type="politica" from="1861" to="1946"></state>
+                    </org>
+                    <org xml:id="parsub">
+                        <orgName>
+                            <name>Parlamento del Regno di Sardegna</name>
+                            <ref target="https://it.wikipedia.org/wiki/Parlamento_del_Regno_di_Sardegna"/>
+                        </orgName>
+                        <state type="politica" from="1848" to="1861"></state>
+                    </org>
+                    <org xml:id="senato">
+                        <orgName>
+                            <name>Senato del Regno</name>
+                            <ref target="https://it.wikipedia.org/wiki/Senato_del_Regno_(Italia)"/>
+                        </orgName>
+                        <state type="politica" from="1861" to="1947"></state>
+                    </org>
+                    <org xml:id="camera_elettiva">
+                        <orgName>
+                            <name>Camera dei deputati del Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Camera_dei_deputati_del_Regno_d%27Italia"/>
+                        </orgName>
+                        <state type="politica" from="1861" to="1939"></state>
+                    </org>
+                    <org xml:id="MINIIN">
+                        <orgName>
+                            <name>Ministero dell'Interno</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ministero_dell%27interno"/>
+                        </orgName>
+                        <state type="politica" from="1861"></state>
+                    </org>
+                    <org xml:id="cristianesimo">
+                        <orgName>
+                            <name>Cristianesimo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Cristianesimo"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="RDI">
+                        <orgName>
+                            <name>Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Regno_d%27Italia_(1861-1946)"/>
+                        </orgName>
+                        <state type="politica" from="1861" to="1946"></state>
+                    </org>
+
+                    <org xml:id="MAIC">
+                        <orgName>
+                            <name>Ministero dell'agricoltura, dell'industria, e del commercio</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ministero_dell%27agricoltura,_dell%27industria_e_del_commercio"/>
+                        </orgName>
+                        <state type="politica" from="1860" to="1916"></state>
+                    </org>
+
+                    <org xml:id="slavofili">
+                        <orgName>
+                            <name>Slavofilismo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Slavofilismo"/>
+                        </orgName>
+                        <state type="filosofia"> </state>
+                    </org>
+
+                      <org xml:id="nihilism">
+                        <orgName>
+                            <name>Nichilismo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Nichilismo"/>
+                        </orgName>
+                        <state type="filosofia"> </state>
+                    </org>
+                    
+                    <org xml:id="comune">
+                        <orgName>
+                            <name>Comune italiano</name>
+                            <ref target="https://it.wikipedia.org/wiki/Comune"/>
+                        </orgName>
+                         <state type="politica"> </state>
+                    </org>
+
+                     <org xml:id="province">
+                        <orgName>
+                            <name>Provincia italiana</name>
+                            <ref target="https://it.wikipedia.org/wiki/Provincia_(Italia)"/>
+                        </orgName>
+                         <state type="politica"> </state>
+                    </org>
+
+                    <org xml:id="MGG">
+                        <orgName>
+                            <name>Ministero della Grazia e della Giustizia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ministero_della_giustizia"/>
+                        </orgName>
+                         <state type="politica" from="1861" ></state>
+                    </org>
+                </listOrg>
+
+                
+                    <listEvent>
+                        <event xml:id="BDA" when="1747-07-19">
+                            <eventName>Battaglia dell'Assietta</eventName>
+                             <ptr target="https://it.wikipedia.org/wiki/Battaglia_dell%27Assietta"/>
+                            
+                        </event>
+
+                        <event xml:id="guerraturu" from="1877" to="1878">
+                            <eventName> Guerra Russo-Turca</eventName>
+                            <ptr target="https://it.wikipedia.org/wiki/Guerra_russo-turca_(1877-1878)"/>
+                        </event>
+
+                        <event xml:id="GPS" from="1740" to="1748">
+                            <eventName>Guerra di successione austriaca</eventName>
+                            <ptr target="https://it.wikipedia.org/wiki/Guerra_di_successione_austriaca"/>
+                           
+                        </event>
+
+                        <event xml:id="RDGEN" when="1746">
+                            <eventName>Rivolta di Genova </eventName>
+                            <ptr target="https://it.wikipedia.org/wiki/Rivolta_di_Genova"/>
+                        </event>
+                    </listEvent>
+
+                    <listBibl>
+                        <bibl xml:id="dispar">
+                            <title>Discorsi Parlamentari</title>
+                            <author>Urbano Rattazzi </author>
+                            <date> 1877</date>
+                            <editor> Per gli eredi Botta </editor>
+                            <ref target="https://www.google.it/books/edition/Discorsi_parlamentari_di_Urbano_Rattazzi/fvYsAAAAYAAJ?hl=it"> </ref>
+                        </bibl>
+
+                        <bibl xml:id="battaglia_assietta">
+                            <title>La battaglia dell'Assietta</title>
+                            <author>Vittorio Dabormida </author>
+                            <date> 1877</date>
+                            <editor> Voghera</editor>
+                            <ref target="https://www.google.it/books/edition/La_battaglia_dell_Assietta_studio_storic/CWAfv-cCae4C?hl=it"> </ref>
+                        </bibl>
+
+                        <bibl xml:id="rivmen">
+                            <title>Riviste Mensili</title>
+                        </bibl>
+                    </listBibl>
+        </div>
+        </back>
+                    
+      </text>
+    </TEI>
+              
+  

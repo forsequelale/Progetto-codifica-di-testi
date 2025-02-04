@@ -1,0 +1,473 @@
+.container{
+	display: flex;
+	flex-direction: column;
+  margin-top: 6%;
+  margin-bottom: 8%;
+}
+
+.teiheader {
+  display: flex;
+  flex-wrap: wrap; /* Permette di andare a capo su schermi piccoli */
+  gap: 1rem; /* Spazio tra le tendine */
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 2rem auto; /* Centrare il contenitore */
+  margin-top: 6%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tendina */
+.tendina {
+  flex: 1 1 calc(50% - 1rem); /* Ogni tendina occupa il 50% dello spazio disponibile */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fefefe;
+  transition: all 0.3s ease;
+}
+
+/* Titolo della tendina */
+.tendina h2 {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background-color: #4ba1fe;
+  color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Icona dinamica */
+.tendina h2::after {
+  content: "+";
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.tendina.active h2::after {
+  content: "-";
+}
+
+/* Pannello interno */
+.pannello {
+  padding: 1rem;
+  display: none; /* Nasconde il pannello inizialmente */
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+#mostraextra {
+  position: fixed;
+  top: 70px;
+  right: 10px;
+  background-color: #4CAF50; /* Verde elegante */
+  color: white; /* Testo bianco */
+  border: none; /* Rimuove il bordo */
+  border-radius: 5px; /* Angoli arrotondati */
+  padding: 10px 20px; /* Spaziatura interna */
+  font-size: 16px; /* Testo più leggibile */
+  font-family: Arial, sans-serif; /* Font moderno */
+  cursor: pointer; /* Puntatore su hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Aggiunge ombra */
+  transition: background-color 0.3s, transform 0.2s; /* Animazione fluida */
+}
+
+#mostraextra:hover {
+  background-color: #45a049; /* Cambia colore al passaggio del mouse */
+  transform: scale(1.05); /* Effetto zoom leggero */
+}
+
+#mostraextra:active {
+  background-color: #3e8e41; /* Colore più scuro durante il click */
+  transform: scale(0.95); /* Rimpicciolisce leggermente */
+}
+
+
+.text {
+    margin: 1em 0; 
+  }
+  
+  .section {
+    margin-top: 1em;
+  }
+  
+  .head {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .head h1 {
+    font-size: 1.5em;
+  }
+  
+  .column-container {
+    column-count: 2;
+    column-gap: 2em;
+  }
+  
+
+  .page {
+    page-break-after: always; /* For better print support */
+  }
+  
+  /* Optional styles */
+  body {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;
+    background-color: #d2e5fd;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+
+  
+ .mostra #orig {
+    text-decoration: line-through;
+  }
+
+  #reg {
+    display:none ;
+  }
+
+  .mostra #reg {
+    display: inline;
+    color: rgb(11, 191, 5);
+    margin-left: 6px;
+    font-weight: bold;
+  }
+  
+
+  
+.columns {
+	display: flex;
+  justify-content: center;
+  border-spacing: 80px;
+}
+
+.columns td {
+	vertical-align: baseline;
+	/*min-width: 600px;*/
+	width: fit-content;
+  max-width: 600px;
+}
+
+
+.section h2 {
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+}
+
+.section h3 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.page {
+  display: flex;
+flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  box-sizing: border-box;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.mostra #extraN {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: darkblue;
+}
+
+.mostra #extraO {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: purple;
+}
+
+.mostra #extraR {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: rgb(10, 133, 248);
+}
+
+.mostra #extraE {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: orange;
+}
+
+.mostra #extraL {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: rgb(0, 141, 94);
+}
+
+.mostra #extraB {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: rgb(246, 255, 0);
+}
+
+.mostra #data {
+  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
+  position: relative;    /* Necessario per posizionare assolutamente .info */
+  color: rgb(129, 108, 0);
+}
+
+.name {
+  text-decoration: none;
+}
+
+.info {
+  display: none;          /* Invisibile di default */
+  position: absolute;     /* Posizionato assolutamente rispetto al genitore */
+  top: 120%;              /* Offset verticale sotto il nome */
+  left: 0;                /* Allineato a sinistra del genitore */
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 250px;           /* Larghezza fissa */
+  white-space: normal;    /* Consente il wrapping del testo nel tooltip */
+  color: black;
+}
+
+.extra:hover .info {
+  display: block; /* Mostra il tooltip quando si passa con il mouse su .person */
+}
+
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vw; /* Altezza del contenitore */
+  width: 100%; /* Larghezza del contenitore */
+  overflow: hidden; /* Evita lo scorrimento */
+}
+
+.image-container img {
+  max-height: 80%; /* Dimensione massima dell'immagine rispetto all'altezza */
+  object-fit: contain; /* Adatta l'immagine al contenitore */
+}
+
+.mostra #verbum {
+  color: green;
+}
+
+.mostra #epithet {
+  color: green;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+
+.section > h2 {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  margin-bottom: 11px;
+  transition: background-color 0.3s ease;
+  border-radius: 9px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section >h2:hover {
+  background-color: #85a3c3;
+}
+
+.section > h2.active {
+  background-color: #b4b4b4;
+}
+
+.section > .page {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: none; /* Assicura che siano nascosti di default */
+}
+
+
+.mostra #sic {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+ #corr {
+  color: green;
+  display: none;
+  font-weight: bold;
+  margin-left: 6px;
+}
+#sic:hover {
+  text-decoration: none;
+}
+
+
+.mostra #citaz {
+  color: brown;
+  cursor: help;
+  text-decoration: dotted underline;
+}
+
+
+.mostra #abbr {
+  color: rgb(255, 81, 0);
+}
+
+
+#expan {
+  display:none;
+}
+
+
+.mostra #expan {
+  display: inline;
+  color: rgb(57, 231, 144);
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+
+
+a {
+   color: #3498db;
+    text-decoration: none; 
+  }
+
+ .gloss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.item {
+  flex: 1 1 calc(33.333% - 1em); /* 3 colonne */
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+
+}
+
+.item strong {
+  font-size: 1.1em;
+}
+
+.item a {
+  display: block;
+  margin-top: 0.5em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+
+
+.ritorna {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  font-weight: bolder;
+}
+
+.ritorna:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #222; /* Sfondo scuro */
+  color: #fff; /* Testo bianco per contrasto */
+  padding: 1.5rem; /* Spazio interno */
+  text-align: center; /* Centra il testo */
+  font-size: 1.1rem; /* Dimensione testo leggermente più piccola */
+  margin-top: 2rem; /* Spazio dal contenuto precedente */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Effetto ombra */
+}
+
+footer div {
+  max-width: 800px; /* Larghezza massima del contenuto */
+  margin: 0 auto; /* Centra il contenuto */
+}
+
+footer p {
+  margin: 0; /* Elimina margini di default */
+  line-height: 1.6; /* Migliora la leggibilità */
+}
+
+footer a {
+  color: #007bff; /* Colore dei link */
+  text-decoration: underline; /* Sottolinea i link */
+}
+
+footer a:hover {
+  color: #0056b3; /* Colore dei link al passaggio del mouse */
+  text-decoration: none; /* Rimuove la sottolineatura al passaggio del mouse */
+}
+
+
+
+
+.glossario h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+/* Stile per le sezioni del glossario */
+.glossario h3 {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4ba1fe; /* Sfondo blu */
+  color: #fff; /* Testo bianco */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.glossario h3:hover {
+  background-color: #0056b3; /* Cambia colore al passaggio del mouse */
+}
+
+.glossario h3.active {
+  background-color: #0056b3; /* Colore per il titolo attivo */
+}
+
+/* Contenuto nascosto */
+.glossario .gloss {
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
