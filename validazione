@@ -1,0 +1,4 @@
+java -cp "xerces-2_12_2\*" dom.Counter -v progetto_codifica.xml
+progetto_codifica.xml: 220;30;0 ms (1451 elems, 3796 attrs, 10116 spaces, 44640 chars)
+
+java -cp saxon-he-12.5.jar net.sf.saxon.Transform -s:progetto_codifica.xml -xsl:trasforma.xsl -o:output.html
