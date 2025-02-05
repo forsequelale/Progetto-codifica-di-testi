@@ -23,7 +23,7 @@
         </head>
         <body>
         <div class="header">
-          <img id="unipi" src="immagini\unipi-logo-png-3.png" alt="Unversità di Pisa"/>
+          <img id="unipi" src="unipi-logo-png-3.png" alt="Università di Pisa"/>
 
           <xsl:apply-templates select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title" />
         </div>
