@@ -32,7 +32,7 @@
     <date>2024</date>
     <availability status="free">
       <p>L'edizione digitale è disponibile su</p>
-      <p><ref target="https://github.com/miadir">GitHub</ref></p>
+      <p><ref target="https://github.com/forsequelale/codifica">GitHub</ref></p>
     </availability>
   </publicationStmt>
 
@@ -45,7 +45,7 @@
   </seriesStmt>
 
   <notesStmt>
-    <note>collegamento al sito della rassegnasettimanale</note>
+    <note><p>Link al sito ufficiale della Rassegna Settimanale: <ref target="https://rassegnasettimanale.animi.it/"></ref></p></note>
   </notesStmt>
 
   <sourceDesc>
@@ -102,9 +102,6 @@
     <normalization method="markup" source="https://www.treccani.it">
       <p>Per le normalizzazioni sono stati usati i tag <gi>orig</gi> e <gi>reg</gi> e come fonte il vocabolario online della Treccani</p>
     </normalization>
-    <!-- Aggiunta delle interpretazioni come paragrafi -->
-    <p>Il termine "Governo" è stato considerato come nome proprio.</p>
-    <p>L'uso del corsivo (italics) è stato considerato significativo.</p>
   </editorialDecl>
 </encodingDesc>
 
@@ -130,8 +127,8 @@
 <facsimile>
 <surface xml:id="p51" start="#pb51">
 <graphic url='Vol1-1878-1-S1-F4-03.png' width='1470.4px' height='2180.4px' />
-<zone ulx="716" uly="1727" lrx="1417" lry="1830" xml:id="p51_titolo" corresp="#p51_titolo"/>
-<zone ulx="716" uly="1829" lrx="1416" lry="1861" xml:id="p51_data" corresp="#p51_data"/>
+<zone ulx="716" uly="1727" lrx="1417" lry="1830" xml:id="titolo_51" corresp="#p51_titolo"/>
+<zone ulx="716" uly="1829" lrx="1416" lry="1861" xml:id="data_51" corresp="#p51_data"/>
 <zone ulx="718" uly="1858" lrx="1419" lry="2086" xml:id="p51_p1" start="#p51_par1"/>
 </surface>
 
@@ -162,7 +159,7 @@
  <!--ARTICOLO 2-->
 <surface xml:id="p53-2" start="#pb53-2" >
 <graphic url='Vol1-1878-1-S1-F4-05.png' width='1496.4px' height='2256.4px' />
-<zone ulx="735" uly="730" lrx="1491" lry="771" xml:id="p53_titolo" corresp="#p53_titolo" />
+<zone ulx="735" uly="730" lrx="1491" lry="771" xml:id="titolo_53" corresp="#p53_titolo" />
 <zone ulx="735" uly="773" lrx="1493" lry="1579" xml:id="p53_p1_a2" start="#p53_par1_a2" />
 <zone ulx="730" uly="1580" lrx="1418" lry="2061" xml:id="p53_p2_a2" start="#p53_par2_a2"/>
 </surface>
@@ -182,8 +179,8 @@
 <!--BIBLIOGRAFIA-->
 <surface xml:id="p63" start="#pb63">
 <graphic url='Vol1-1878-1-S1-F4-15.png' width='1464.4px' height='2199.4px' />
-<zone ulx="3" uly="1050" lrx="707" lry="1092" xml:id="p63_titolo" corresp="#p63_titolo" />
-<zone ulx="2" uly="1095" lrx="707" lry="1187" xml:id="p63_bibl" corresp="#p63_bibl" />
+<zone ulx="3" uly="1050" lrx="707" lry="1092" xml:id="titolo_63" corresp="#p63_titolo" />
+<zone ulx="2" uly="1095" lrx="707" lry="1187" xml:id="bibl_63" corresp="#p63_bibl" />
 <zone ulx="2" uly="1194" lrx="703" lry="1506"  xml:id="p63_p1" start="#p63_par1"/>
 <zone ulx="3" uly="1508" lrx="706" lry="1998"  xml:id="p63_p2" start="#p63_par2"/>
 </surface>
@@ -191,8 +188,8 @@
 
 <surface xml:id="p64" start="#pb64">
 <graphic url='Vol1-1878-1-S1-F4-16.png' width='1492.4px' height='2221.4px' />
-<zone ulx="4" uly="692" lrx="775" lry="729" xml:id="p64_titolo" corresp="#p64_titolo" />
-<zone ulx="6" uly="731" lrx="776" lry="792" xml:id="p64_bibl" corresp="#p64_bibl" />
+<zone ulx="4" uly="692" lrx="775" lry="729" xml:id="titolo_64" corresp="#p64_titolo" />
+<zone ulx="6" uly="731" lrx="776" lry="792" xml:id="bibl_64" corresp="#p64_bibl" />
 <zone ulx="5" uly="791" lrx="776" lry="1936" xml:id="p64_p1" start="#p64_par1" />
 <zone ulx="4" uly="1940" lrx="776" lry="2056" xml:id="p64_p2" start="#p64_par2"/>
 
@@ -202,7 +199,7 @@
 <!--NOTIZIE-->
 <surface xml:id="p64-2" start="#pb64-2">
 <graphic url='Vol1-1878-1-S1-F4-16.png' width='1492.4px' height='2221.4px' />
-<zone ulx="782" uly="744" lrx="1457" lry="785" xml:id="p64_titolo_n" corresp="#p64_titolo_n" />
+<zone ulx="782" uly="744" lrx="1457" lry="785" xml:id="titolo_64_n" corresp="#p64_titolo_n" />
 <zone ulx="777" uly="1762" lrx="1489" lry="1846" xml:id="p64_p4" start="#p64_par4"/>
 <zone ulx="778" uly="1837" lrx="1489" lry="1918" xml:id="p64_p5" start="#p64_par5"/>
 </surface>
@@ -215,20 +212,19 @@
           
            <cb n="2" xml:id="c2_51" corresp="#pb51"/>
 
-            <head rend="align(center)" facs="#p51_titolo" xml:id="titolo_51" corresp="#c2_51">
+            <head rend="align(center)" facs="#titolo_51" xml:id="p51_titolo" corresp="#c2_51">
              <title level="m">I PARTITI POLITICI IN RUSSIA</title> 
-             <title level="s">DI FRONTE ALL'
-               ATTUALE GUERRA.
+             <title level="s">DI FRONTE ALL'ATTUALE GUERRA.
               <lb break="no"/> (Lettera da Pietroburgo.) </title>
             </head>
 
-            <ab facs="#p51_data" xml:id="data_51" corresp="#c2_51">
-              <date rend="italic" from="--01-08" to="--01-20" >8/20 gennaio.</date>
+            <ab facs="#data_51" xml:id="p51_data" corresp="#c2_51">
+              <lb break="no"/><date rend="italic" from="--01-08" to="--01-20" >8/20 gennaio.</date>
             </ab>
 
             <ab facs="#p51_p1" xml:id="p51_par1" corresp="#c2_51">
                   <lb break="no"/> Nel nostro paese non vi sono <term type="verbum" rend="italic">partiti politici</term> nel senso 
-                  <lb break="yes"/>attribuito a queste parole nell’ occidente, ove a questo con<pc force="inter">-</pc>
+                  <lb break="yes"/>attribuito a queste parole nell'occidente, ove a questo con<pc force="inter">-</pc>
                   <lb break="no"/>cetto va unito quello di una adeguata discussione e di una 
                   <lb break="no"/>corrispondente attività; ambedue sono impossibili in <country ref="#RU">Russia</country>, 
                   <lb break="no"/>ove tuttociò che non si conforma alla vita tradizionale del 
@@ -251,7 +247,7 @@
               <lb break="yes"/>manifestare le sue opinioni che in quanto lo tollera la cen<pc force="inter">-</pc>
               <lb break="no"/>sura, nei vari periodici mensili e giornalieri, diretti da 
               <lb break="no"/>uomini più o meno influenti rappresentanti le singole forme 
-              <lb break="no"/>dell’ opinione pubblica, la quale non potendo svilupparsi 
+              <lb break="no"/>dell'opinione pubblica, la quale non potendo svilupparsi 
               <lb break="yes"/>liberamente, è tuttora allo stato nascente e caotico. Pur<pc force="inter">-</pc>
               <lb break="yes"/>nonostante, di fronte all'attuale guerra si espressero net<pc force="inter">-</pc>
               <lb break="no"/>tamente alcune tendenze diverse, che sto per accennare.
@@ -260,18 +256,18 @@
 
               <ab facs="#p52_p2" xml:id="p52_par2" corresp="#c1_52">
               
-              <lb break="no"/>Circa due anni fa, quando fu traveduta la possibilità 
+              <lb break="no"/>Circa due anni fa, quando fu <choice><orig>traveduta</orig><reg>intravista</reg></choice> la possibilità 
               <lb break="no"/>della guerra <choice> <orig>colla</orig> <reg>con la</reg></choice> <country ref="#TU">Turchia</country>, alcuni dei nostri pubblicisti 
               <lb break="yes"/>vi si dichiararono favorevoli ; essi cercavano di dimo<pc force="inter">-</pc>
               <lb break="no"/>strare che fra le sue conseguenze benefiche sarebbe stata 
-              <lb break="no"/>anche quella di favorire lo sviluppo politico interno ; anzi 
+              <lb break="no"/>anche quella di favorire lo sviluppo politico interno; anzi 
               <lb break="no"/>a misura che cresceva la probabilità della guerra, gli 
               <lb break="yes"/>stessi scrittori sostenevano che le loro previsioni si av<pc force="inter">-</pc>
               <lb break="no"/>veravano più presto di quello che essi medesimi, avessero 
               <lb break="no"/>creduto, e che la sola idea del grande avvenimento avesse 
               <lb break="no"/>già portato la società russa ad un alto grado di maturità 
               <lb break="no"/>politica. In conferma di quest'asserto, essi adducevano la 
-              <lb break="no"/><soCalled>« comunità di sentimenti e d'idee, »</soCalled> che a parer loro, aveva 
+              <lb break="no"/><soCalled>«comunità di sentimenti e d'idee,»</soCalled> che a parer loro, aveva 
               <lb break="yes"/>abbracciato e collegato insieme tutte le classi della po<pc force="inter">-</pc>
               <lb break="no"/>polazione. Ma, pure ammettendo che in alcuni rari casi, 
               <lb break="yes"/>un tale consenso unanime possa realmente essere il sin<pc force="inter">-</pc>
@@ -297,15 +293,15 @@
               <lb break="no"/>Mentre il <orgName type="government" ref="#GOVR">Governo</orgName> si preparava alla guerra inevitabile, o, 
               <lb break="no"/>come credono taluni, la voleva e la preparava segretamente 
               <lb break="no"/>seguendo le sue tradizionali mire politiche, la società aveva 
-              <lb break="yes"/>rivolto tutti i pensieri alla vita interna ; essa ignorava i pre<pc force="inter">-</pc>
-              <lb break="no"/>parativi, al punto che allorquando si manifestarono le prime 
+              <lb break="yes"/>rivolto tutti i pensieri alla vita interna; essa ignorava i pre<pc force="inter">-</pc>
+              <lb break="no"/>parativi, al punto che <distinct type="literary"><choice><orig>allorquando</orig><reg>quando</reg></choice></distinct>si manifestarono le prime 
               <lb break="no"/>complicazioni sorte in Oriente, essa non se ne commosse 
               <lb break="yes"/><choice><orig>menomamente</orig><reg>minimamente</reg></choice>, e la sua attenzione fu attirata su quegli av<pc force="inter">-</pc>
               <lb break="yes"/>venimenti soltanto dalla potente voce di <name type="person" ref="#GD">Gladstone</name>, che chia<pc force="inter">-</pc>
               <lb break="no"/>mava la civiltà in difesa dei cristiani oppressi dagli <choice> <orig>Osmanli</orig> <reg>Turchi</reg></choice>. 
               <lb break="no"/>Essa allora fu naturalmente prona a simpatizzare <choice> <orig>colle</orig> <reg>con le</reg></choice> soffe<pc force="inter">-</pc>
               <lb break="no"/>renze altrui, non godendo in casa propria una vita troppo 
-              <lb break="no"/>felice. I discorsi e gli scritti dell' <hi rend="italic"><name type="person" ref="#GD">ex-Premier</name></hi> inglese e dei 
+              <lb break="no"/>felice. I discorsi e gli scritti dell'<hi rend="italic"><name type="person" ref="#GD">ex-Premier</name></hi> inglese e dei 
               <lb break="no"/>suoi amici scossero la società russa assai più profondamente 
               <lb break="no"/>che non erano riusciti a farlo i nostri agitatori stessi, nel 
               <lb break="no"/>corso di parecchi anni. Ma quando si vide alla vigilia della 
@@ -371,12 +367,12 @@
               <lb break="no"/>biltà di <name type="city" ref="#MO">Mosca</name> si ostinano a non voler scorgere nulla di 
               <lb break="no"/>buono nelle tendenze ed aspirazioni che vi ho accennate, 
               <lb break="no"/>verso una migliore civiltà, e contrappongono ad esse le 
-              <lb break="no"/>proprie, antico-russe, nazionali ed ortodosse, sostenendo 
+              <lb break="no"/>proprie, antico-russe, nazionali ed <orgName type="religion" ref="#ortodossia">ortodosse</orgName>, sostenendo 
               <lb break="no"/>che il popolo russo deve vivere di una vita sua propria, 
               <lb break="no"/>incontaminata da influenze estere occidentali ; che esso deve 
               <lb break="no"/>fondersi <choice> <orig>colle</orig> <reg>con le</reg></choice> altre popolazioni slave e formare un mondo 
-              <lb break="no"/>a parte, affatto distinto dal mondo Germanico e da quello 
-              <lb break="no"/>Latino, destinato a percorrere una via storica diversa dalla 
+              <lb break="no"/>a parte, affatto distinto dal mondo <orgName type="population" ref="#germ">Germanico</orgName> e da quello 
+              <lb break="no"/><orgName type="population" ref="#lat">Latino</orgName>, destinato a percorrere una via storica diversa dalla 
               <lb break="no"/>loro, ed a riempire una missione storica diversa ; <choice><orig>donde</orig><reg>dove</reg></choice> il 
               <lb break="yes"/><emph rend="italic">dovere</emph> che secondo questo modo di vedere incombe al po<pc force="inter">-</pc>
               <lb break="no"/>polo russo, il più potente fra le stirpi slave, di liberare dai 
@@ -388,7 +384,7 @@
               <lb break="no"/>rale, ogniqualvolta hanno fatto parlare di sè. I loro sforzi 
               <lb break="no"/>per costituire un <term type="verbum" rend="italic">partito nazionale, slavofilo o panslavistico,</term>
               <lb break="no"/>che abbia una qualche influenza sulle faccende pubbliche,  
-              <lb break="yes"/>rimasero per lungo tempo sterili ; ma essi speravano sem<pc force="inter">-</pc>
+              <lb break="yes"/>rimasero per lungo tempo sterili; ma essi speravano sem<pc force="inter">-</pc>
               <lb break="no"/>pre che la loro ardente fede sarebbe ricompensata, e che  
               <lb break="no"/>un giorno anch'essi avrebbero un certo peso nella bilancia 
               <lb break="no"/>degli avvenimenti politici.
@@ -403,14 +399,14 @@
                 <lb break="no"/>sonalità più influenti e spiccate dei vari rami limitrofi 
                 <lb break="no"/>della razza slava, come i Bulgari, i Bosniaci, i Czechi, i 
                 <lb break="no"/>Montenegrini, ed altri; il <orgName type="government" ref="#GOVR">Governo</orgName> sapeva bene che tali 
-                <lb break="yes"/>rapporti potevano all’ occasione rendergli servigi grandis<pc force="inter">-</pc>
+                <lb break="yes"/>rapporti potevano all'occasione rendergli servigi grandis<pc force="inter">-</pc>
                 <lb break="yes"/>simi, e non solo li tollerava, ma li incoraggiava. D'al<pc force="inter">-</pc>
                 <lb break="no"/>tra parte, quando sorsero in Oriente le complicanze nelle 
                 <lb break="yes"/>quali esso credè opportuno e si decise di intervenire effi<pc force="inter">-</pc>
                 <lb break="no"/>cacemente, gli <rs type="group" ref="#slavofili">slavofili</rs> compresero che dinanzi a loro si 
                 <lb break="no"/>apriva un vasto campo di attività : essi afferrarono le parole 
-                <lb break="yes"/>di <name type="person" ref="#GD">Gladstone</name>, il quale, dall'interno di quel paese che gli sla<pc force="inter">-</pc>
-                <lb break="yes"/>vofili avversano più di ogni altro, aveva parlato come po<pc force="inter">-</pc>
+                <lb break="yes"/>di <name type="person" ref="#GD">Gladstone</name>, il quale, dall'interno di quel paese che gli <rs type="group" ref="#slavofili">sla<pc force="inter">-</pc>
+                <lb break="yes"/>vofili</rs> avversano più di ogni altro, aveva parlato come po<pc force="inter">-</pc>
                 
             </ab>
 
@@ -442,10 +438,10 @@
               <lb break="no"/>legano il suo <orgName type="government" ref="#GOVR">Governo</orgName>, non sarebbe rimasta indifferente al 
               <lb break="no"/>loro appello in pro' dei <term type="verbum" rend="italic">fratelli correligionari,</term> ed avrebbe anzi 
               <lb break="no"/>caldamente abbracciato l'idea della riscossa ; essi sapevano 
-              <lb break="no"/>pure che il <orgName type="government" ref="#GOVR">Governo</orgName> avrebbe lavorato nel medesimo senso ; 
+              <lb break="no"/>pure che il <orgName type="government" ref="#GOVR">Governo</orgName> avrebbe lavorato nel medesimo senso; 
               <lb break="no"/>ond'è che dopo aver inveito un'altra volta contro la parte 
-              <lb break="no"/>colta della popolazione, come minoranza <soCalled>« demoralizzata 
-              <lb break="yes"/>dal funesto contagio delle società occidentali, »</soCalled> essi si mi<pc force="inter">-</pc>
+              <lb break="no"/>colta della popolazione, come minoranza <soCalled>«demoralizzata 
+              <lb break="yes"/>dal funesto contagio delle società occidentali,»</soCalled> essi si mi<pc force="inter">-</pc>
               <lb break="no"/>sero all' opera nel modo più efficace possibile. Forti della 
               <lb break="no"/>simpatia del <orgName type="government" ref="#GOVR">Governo</orgName>, coadiuvati dagli alti dignitari della 
               <lb break="no"/><orgName ref="#chiesa">Chiesa</orgName>, essi entrarono in stretti rapporti col basso clero, 
@@ -456,7 +452,7 @@
               <lb break="yes"/><rs type="religion" ref="#Cristianesimo">Cristo</rs> e in sangue;</term> i preti rinforzavano la dose di fanati<pc force="inter">-</pc>
               <lb break="yes"/>smo religioso, e riuscirono, in capo a pochi mesi, a solle<pc force="inter">-</pc>
               <lb break="no"/>vare in minacciosa <distinct type="poetic">procella</distinct> il vasto oceano, così indolente 
-              <lb break="no"/>per natura sua, del popolino russo.
+              <lb break="no"/>per natura sua, del <addName type="epithet">popolino</addName> russo.
               
               </ab>
 
@@ -473,7 +469,7 @@
                     <lb break="no"/>regioni industriali; un'elevatezza di prezzi quale non si 
                     <lb break="no"/>era verificata che nei tempi peggiori della nostra storia; 
                     <lb break="no"/>e, per di più, un inverno di un rigore insolito, con tutte le 
-                    <lb break="no"/>sue terribili conseguenze. Dal largo petto del <addName type="epithet" ref="#mugik">Mugik</addName> uscì un 
+                    <lb break="no"/>sue terribili conseguenze. Dal largo petto del <addName type="epithet">Mugik</addName> uscì un 
                     <lb break="no"/>gemito<ellipsis><metamark>—</metamark></ellipsis> ma era troppo tardi; non si udiva più altro che 
                     <lb break="no"/>il rombo del cannone; e gli <rs type="group" ref="#slavofili">slavofili</rs> poterono liberamente 
                     <lb break="no"/>continuare a spargere la voce che <said who="#slavofili">il popolo era proprio 
@@ -534,7 +530,7 @@
 
             <pb n="53" facs="#p53-2" xml:id="pb53-2"/>
             <cb n="2" xml:id="c2_53_2" corresp="#pb53-2"/>
-            <head rend="align(center)" facs="#p53_titolo" xml:id="_p53_titolo" corresp="#c2_53_2">
+            <head rend="align(center)" facs="#titolo_53" xml:id="p53_titolo" corresp="#c2_53_2">
             <title>CORRISPONDENZA DA GONZAGA (Mantovano).</title></head>
             <ab facs="#p53_p1_a2" xml:id="p53_par1_a2" corresp="#c2_53_2">
               
@@ -662,10 +658,10 @@
                   <lb break="no"/><name type="place" ref="#MANT">Mantova</name> si è costituito un comitato centrale; il quale dovrà 
                   <lb break="no"/>poi cooperare con comitati sparsi nella provincia. Quella 
                   <lb break="yes"/>iniziativa e quest'associazione indicano chiaramente la gra<pc force="inter">-</pc>
-                  <lb break="yes"/>vità del male e la lodevole intenzione di curarne l’acer<pc force="inter">-</pc>
-                  <lb break="no"/>bità. L'idea, messa innanzi dal conte <name type="person" ref="darco">D’Arco</name>, di fare in 
+                  <lb break="yes"/>vità del male e la lodevole intenzione di curarne l'acer<pc force="inter">-</pc>
+                  <lb break="no"/>bità. L'idea, messa innanzi dal conte <name type="person" ref="darco">D'Arco</name>, di fare in 
                   <lb break="no"/>modo che diminuisca il numero dei contadini non addetti
-                  <lb break="no"/>stabilmente alla coltivazione dei nostri poderi; quell’idea 
+                  <lb break="no"/>stabilmente alla coltivazione dei nostri poderi; quel'idea 
                   <lb break="no"/>designa chiaramente lo scopo, al quale fa <choice><orig>d'uopo</orig><reg>bisogno</reg></choice> tendere.  
                   <lb break="no"/>Per giungervi, però, l'Associazione dovrebbe profondamente 
                   <lb break="no"/>modificare le condizioni presenti della speculazione agraria 
@@ -704,10 +700,10 @@
 
         <pb n="63" facs="#p63" xml:id="pb63"/>
         <cb n="1" xml:id="c1_63" corresp="#pb63"/>
-        <head rend="align(center)" facs="#p63_titolo" xml:id="_p63_titolo" corresp="#c1_63">
+        <head rend="align(center)" facs="#titolo_63" xml:id="p63_titolo" corresp="#c1_63">
              <title>SCIENZE POLITICHE.</title>
         </head>
-              <ab facs="#p63_bibl" xml:id="_p63_bibl" corresp="#c1_63">
+              <ab facs="#bibl_63" xml:id="p63_bibl" corresp="#c1_63">
                 <lb break="yes"/><name type="person" ref="#rattazzi" rend="case(allcaps)">Urbano Rattazzi</name>. <name type="bibl" ref="#dispar" rend="italic">Discorsi Parlamentari</name>, raccolti e pubbli<pc force="inter">-</pc>
                 <lb break="yes"/> cati per cura dell'avv. cav. <name type="person" rend="italic" ref="#scovazzi">Giovanni Scovazzi</name>, bibliote<pc force="inter">-</pc>
                 <lb break="no"/>cario della  <orgName type="government" ref="#camera_elettiva">Camera dei Deputati</orgName>. Volume 2°<metamark>—</metamark><name type="place" ref="#ROMA">Roma</name>, <date when="1877">1877</date>.
@@ -716,7 +712,7 @@
 
                 <ab facs="#p63_p1" xml:id="p63_par1" corresp="#c1_63">
                   
-                    <lb break="no"/>La squisita <term>arte parlamentare</term> di <name type="person" ref="#rattazzi">Urbano Rattazzi</name> è 
+                    <lb break="no"/>La squisita arte parlamentare di <name type="person" ref="#rattazzi">Urbano Rattazzi</name> è 
                     <lb break="no"/>stata sempre riconosciuta, anche da coloro che a lui, nelle 
                     <lb break="no"/>lotte di governo, furono costantemente <choice><sic>avversarii</sic><corr>avversari</corr></choice>. Epperò 
                     <lb break="no"/>in un paese come l'<country ref="#IT">Italia</country>, dove l'educazione politica può 
@@ -746,8 +742,8 @@
                     <lb break="no"/>zia</rs>, assumeva del pari la reggenza del <orgName ref="#MINIIN">Ministero dell'in
                     <lb break="yes"/>terno</orgName>, e discorreva con eguale successo su materie dispa<pc force="inter">-</pc>
                     <lb break="no"/>rate e di non sua competenza diretta. Forse in questa
-                    <lb break="yes"/>pubblicazione è da lamentare la <term>mancanza di <choice><sic>sufficenti</sic><corr>sufficienti</corr></choice> an<pc force="inter">-</pc>
-                    <lb break="yes"/>notazioni storiche ed esplicative</term>; ma varrà meglio parlarne 
+                    <lb break="yes"/>pubblicazione è da lamentare la mancanza di <choice><sic>sufficenti</sic><corr>sufficienti</corr></choice> an<pc force="inter">-</pc>
+                    <lb break="yes"/>notazioni storiche ed esplicative; ma varrà meglio parlarne 
                     <lb break="no"/>più lungamente quando l' <name type="bibl" ref="#dispar">opera</name> sarà compiuta.
                 
             </ab>
@@ -757,10 +753,10 @@
             <div>
             <pb n="64" facs="#p64" xml:id="pb64"/>
             <cb n="1" xml:id="c1_64" corresp="#pb64"/>
-                <head rend="align(center)" facs="#p64_titolo" xml:id="_p64_titolo" corresp="#c1_64">
+                <head rend="align(center)" facs="#titolo_64" xml:id="p64_titolo" corresp="#c1_64">
              <title>SCIENZE MILITARI.</title>
         </head>
-                <ab facs="#p64_bibl" xml:id="_p64_bibl" corresp="#c1_64">
+                <ab facs="#bibl_64" xml:id="p64_bibl" corresp="#c1_64">
     
                            <lb break="yes"/> <name rend="case(allcaps)" ref="#dabormida">Vittorio Dabormida. </name><name type="bibl" ref="#battaglia_assietta" rend="italic">La battaglia dell'Assietta.</name> Studio sto<pc force="inter">-</pc>
                            <lb break="no"/>rico. <metamark>—</metamark><name type="place" ref="#ROMA">Roma</name>, <date when="1877">1877</date>
@@ -836,7 +832,7 @@
                           <lb break="yes"/>se militari, la forma deve essere curata al pari della so<pc force="inter">-</pc>
                           <lb break="no"/>stanza ; ora ci pare che l'<name type="person" ref="#dabormida">Autore</name> abbia poco usato della 
                           <lb break="no"/>lima nella prima parte del libro, che in taluni punti riesce 
-                          <lb break="no"/>un poco <distinct type="archaic">avviluppata</distinct>. Nelle parti seguenti, l'<name type="person" ref="#dabormida">Autore</name>, trattando 
+                          <lb break="no"/>un poco <distinct type="literary"><choice><orig>avviluppata</orig><reg>confusa</reg></choice></distinct>. Nelle parti seguenti, l'<name type="person" ref="#dabormida">Autore</name>, trattando 
                           <lb break="yes"/>esclusivamente di cose militari, si sente più in agio, e la nar<pc force="inter">-</pc>
                           <lb break="no"/>razione corre più spiccia. Il secondo appunto riguarda il 
                           <lb break="no"/>titolo del libro che non ci pare il più proprio relativamente 
@@ -1268,6 +1264,18 @@
                         </orgName>
                         <state type="politica" from="756" to="1870"></state>
                     </org>
+                    <org xml:id="germ">
+                        <orgName>
+                            <name>I Germani</name>
+                            <ref target="https://it.wikipedia.org/wiki/Germani"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="lat">
+                        <orgName>
+                            <name>I Latini</name>
+                            <ref target="https://it.wikipedia.org/wiki/Latini"/>
+                        </orgName>
+                    </org>
                      <org xml:id="AUGOV">
                         <orgName>
                             <name>Impero Austro-Ungarico</name>
@@ -1314,6 +1322,12 @@
                         <orgName>
                             <name>Cristianesimo</name>
                             <ref target="https://it.wikipedia.org/wiki/Cristianesimo"/>
+                        </orgName>
+                    </org>
+                    <org xml:id="ortodossia">
+                        <orgName>
+                            <name>Ortodossia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ortodossia"/>
                         </orgName>
                     </org>
                     <org xml:id="RDI">

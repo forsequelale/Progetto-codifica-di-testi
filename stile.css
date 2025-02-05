@@ -5,22 +5,31 @@
   margin-bottom: 8%;
 }
 
+
+
+#unipi{
+  width:80px;
+  float: left;
+}
+
+
+
 .teiheader {
   display: flex;
-  flex-wrap: wrap; /* Permette di andare a capo su schermi piccoli */
-  gap: 1rem; /* Spazio tra le tendine */
+  flex-wrap: wrap; 
+  gap: 1rem; 
   padding: 1rem;
   background-color: #ffffff;
   border-radius: 8px;
   max-width: 1200px;
-  margin: 2rem auto; /* Centrare il contenitore */
-  margin-top: 6%;
+  margin: 2rem auto; 
+  margin-top: 3%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Tendina */
+/* tendina */
 .tendina {
-  flex: 1 1 calc(50% - 1rem); /* Ogni tendina occupa il 50% dello spazio disponibile */
+  flex: 1 1 calc(50% - 1rem); 
   display: flex;
   flex-direction: column;
   border: 1px solid #ddd;
@@ -30,7 +39,7 @@
   transition: all 0.3s ease;
 }
 
-/* Titolo della tendina */
+/* titolo della tendina */
 .tendina h2 {
   margin: 0;
   padding: 0.75rem 1rem;
@@ -43,7 +52,7 @@
   justify-content: space-between;
 }
 
-/* Icona dinamica */
+/* icona dinamica */
 .tendina h2::after {
   content: "+";
   font-size: 1.5rem;
@@ -54,10 +63,10 @@
   content: "-";
 }
 
-/* Pannello interno */
+/* pannello interno */
 .pannello {
   padding: 1rem;
-  display: none; /* Nasconde il pannello inizialmente */
+  display: none; 
   font-size: 1rem;
   color: #333;
   background-color: #f9f9f9;
@@ -67,26 +76,25 @@
   position: fixed;
   top: 70px;
   right: 10px;
-  background-color: #4CAF50; /* Verde elegante */
-  color: white; /* Testo bianco */
-  border: none; /* Rimuove il bordo */
-  border-radius: 5px; /* Angoli arrotondati */
-  padding: 10px 20px; /* Spaziatura interna */
-  font-size: 16px; /* Testo più leggibile */
-  font-family: Arial, sans-serif; /* Font moderno */
-  cursor: pointer; /* Puntatore su hover */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Aggiunge ombra */
-  transition: background-color 0.3s, transform 0.2s; /* Animazione fluida */
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s; 
 }
 
 #mostraextra:hover {
-  background-color: #45a049; /* Cambia colore al passaggio del mouse */
-  transform: scale(1.05); /* Effetto zoom leggero */
+  background-color: #45a049; 
+  transform: scale(1.05); 
 }
 
 #mostraextra:active {
-  background-color: #3e8e41; /* Colore più scuro durante il click */
-  transform: scale(0.95); /* Rimpicciolisce leggermente */
+  background-color: #3e8e41; 
+  transform: scale(0.95); 
 }
 
 
@@ -114,10 +122,10 @@
   
 
   .page {
-    page-break-after: always; /* For better print support */
+    page-break-after: always; 
   }
   
-  /* Optional styles */
+
   body {
     font-family: 'EB Garamond', serif;
     line-height: 1.6;
@@ -154,7 +162,6 @@
 
 .columns td {
 	vertical-align: baseline;
-	/*min-width: 600px;*/
 	width: fit-content;
   max-width: 600px;
 }
@@ -186,44 +193,44 @@ justify-content: center;
 
 
 .mostra #extraN {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline; 
+  position: relative; 
   color: darkblue;
 }
 
 .mostra #extraO {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline; 
+  position: relative;   
   color: purple;
 }
 
 .mostra #extraR {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline; 
+  position: relative;  
   color: rgb(10, 133, 248);
 }
 
 .mostra #extraE {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline; 
+  position: relative;    
   color: orange;
 }
 
 .mostra #extraL {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline; 
+  position: relative;    
   color: rgb(0, 141, 94);
 }
 
 .mostra #extraB {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline;
+  position: relative;   
   color: rgb(246, 255, 0);
 }
 
 .mostra #data {
-  display: inline; /* Mantiene il nome e il tooltip sullo stesso livello */
-  position: relative;    /* Necessario per posizionare assolutamente .info */
+  display: inline;
+  position: relative;    
   color: rgb(129, 108, 0);
 }
 
@@ -232,40 +239,71 @@ justify-content: center;
 }
 
 .info {
-  display: none;          /* Invisibile di default */
-  position: absolute;     /* Posizionato assolutamente rispetto al genitore */
-  top: 120%;              /* Offset verticale sotto il nome */
-  left: 0;                /* Allineato a sinistra del genitore */
+  display: none;         
+  position: absolute;     
+  top: 120%;             
+  left: 0;         
   background-color: #f9f9f9;
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
-  width: 250px;           /* Larghezza fissa */
-  white-space: normal;    /* Consente il wrapping del testo nel tooltip */
+  width: 250px;    
+  white-space: normal;    
   color: black;
 }
 
 .extra:hover .info {
-  display: block; /* Mostra il tooltip quando si passa con il mouse su .person */
+  display: block;
 }
 
 
 
 
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 110vw; /* Altezza del contenitore */
-  width: 100%; /* Larghezza del contenitore */
-  overflow: hidden; /* Evita lo scorrimento */
+
+.zone {
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
 }
 
-.image-container img {
-  max-height: 80%; /* Dimensione massima dell'immagine rispetto all'altezza */
-  object-fit: contain; /* Adatta l'immagine al contenitore */
+.zone:hover {
+  border: 2px solid red;
+  cursor: pointer;
 }
+
+.surface {
+  position: relative;
+}
+
+.zone {
+  border: 2px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.zone:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.surface {
+  position: relative;
+}
+
+/* Evidenziazione dei paragrafi */
+.blocco {
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+.blocco.highlight {
+  background-color: yellow;    /* Evidenziazione in giallo */
+  padding: 5px;                /* Spaziatura per evidenziare meglio */
+  border-radius: 4px;          /* Angoli arrotondati */
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.7); /* Leggero effetto glow */
+}
+
 
 .mostra #verbum {
   color: green;
@@ -303,7 +341,7 @@ h1, h2 {
   border: 1px solid #ddd;
   padding: 10px;
   background-color: #f9f9f9;
-  display: none; /* Assicura che siano nascosti di default */
+  display: none; 
 }
 
 
@@ -361,7 +399,7 @@ a {
 }
 
 .item {
-  flex: 1 1 calc(33.333% - 1em); /* 3 colonne */
+  flex: 1 1 calc(33.333% - 1em); 
   border: 1px solid #ccc;
   padding: 1em;
   border-radius: 5px;
@@ -403,33 +441,33 @@ a {
 }
 
 footer {
-  background-color: #222; /* Sfondo scuro */
-  color: #fff; /* Testo bianco per contrasto */
-  padding: 1.5rem; /* Spazio interno */
-  text-align: center; /* Centra il testo */
-  font-size: 1.1rem; /* Dimensione testo leggermente più piccola */
-  margin-top: 2rem; /* Spazio dal contenuto precedente */
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Effetto ombra */
+  background-color: #222; 
+  color: #fff;
+  padding: 1.5rem; 
+  text-align: center;
+  font-size: 1.1rem; 
+  margin-top: 2rem; 
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 footer div {
-  max-width: 800px; /* Larghezza massima del contenuto */
-  margin: 0 auto; /* Centra il contenuto */
+  max-width: 800px; 
+  margin: 0 auto;
 }
 
 footer p {
-  margin: 0; /* Elimina margini di default */
-  line-height: 1.6; /* Migliora la leggibilità */
+  margin: 0; 
+  line-height: 1.6; 
 }
 
 footer a {
-  color: #007bff; /* Colore dei link */
-  text-decoration: underline; /* Sottolinea i link */
+  color: #007bff;
+  text-decoration: underline; 
 }
 
 footer a:hover {
-  color: #0056b3; /* Colore dei link al passaggio del mouse */
-  text-decoration: none; /* Rimuove la sottolineatura al passaggio del mouse */
+  color: #0056b3; 
+  text-decoration: none;
 }
 
 
@@ -442,26 +480,26 @@ footer a:hover {
   color: #222;
 }
 
-/* Stile per le sezioni del glossario */
+
 .glossario h3 {
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
-  background-color: #4ba1fe; /* Sfondo blu */
-  color: #fff; /* Testo bianco */
+  background-color: #4ba1fe; 
+  color: #fff; 
   cursor: pointer;
   transition: background-color 0.3s ease;
   border-radius: 5px;
 }
 
 .glossario h3:hover {
-  background-color: #0056b3; /* Cambia colore al passaggio del mouse */
+  background-color: #0056b3; 
 }
 
 .glossario h3.active {
-  background-color: #0056b3; /* Colore per il titolo attivo */
+  background-color: #0056b3; 
 }
 
-/* Contenuto nascosto */
+
 .glossario .gloss {
   padding: 1rem;
   font-size: 1rem;
